@@ -1,0 +1,595 @@
+anio,establecimiento,rbd,prueba,promedio
+2024,"Liceo Politecnico Benjamin Vicuna Mackenna
+Rama",6757-763,Lenguaje,470.5
+2024,"Liceo Politecnico Benjamin Vicuna Mackenna
+Rama",6757-763,M1,457.0
+2024,"Liceo Politecnico Benjamin Vicuna Mackenna
+Rama",6757-763,M2,290.0
+2024,"Liceo Politecnico Benjamin Vicuna Mackenna
+Rama",6757-763,Historia,396.0
+2024,"Liceo Politecnico Benjamin Vicuna Mackenna
+Rama",6757-763,Ciencias,0.0
+2024,"Liceo Politecnico Benjamin Vicuna Mackenna
+Rama",6757-763,Obligatoria,463.8
+2025,"Instituto Comercial De Valdivia
+Rama",6751-463,Lenguaje,534.7
+2025,"Instituto Comercial De Valdivia
+Rama",6751-463,M1,558.8
+2025,"Instituto Comercial De Valdivia
+Rama",6751-463,M2,357.8
+2025,"Instituto Comercial De Valdivia
+Rama",6751-463,Historia,457.0
+2025,"Instituto Comercial De Valdivia
+Rama",6751-463,Ciencias,410.4
+2025,"Instituto Comercial De Valdivia
+Rama",6751-463,Obligatoria,546.9
+2026,"Colegio Bicentenario Helvecia
+Rama",12185-310,Lenguaje,619.2
+2026,"Colegio Bicentenario Helvecia
+Rama",12185-310,M1,632.7
+2026,"Colegio Bicentenario Helvecia
+Rama",12185-310,M2,423.5
+2026,"Colegio Bicentenario Helvecia
+Rama",12185-310,Historia,516.6
+2026,"Colegio Bicentenario Helvecia
+Rama",12185-310,Ciencias,469.5
+2026,"Colegio Bicentenario Helvecia
+Rama",12185-310,Obligatoria,626.9
+2026,"Colegio Bicentenario Helvecia
+Rama",12185-363,Lenguaje,482.8
+2026,"Colegio Bicentenario Helvecia
+Rama",12185-363,M1,484.5
+2026,"Colegio Bicentenario Helvecia
+Rama",12185-363,M2,358.7
+2026,"Colegio Bicentenario Helvecia
+Rama",12185-363,Historia,432.5
+2026,"Colegio Bicentenario Helvecia
+Rama",12185-363,Ciencias,377.1
+2026,"Colegio Bicentenario Helvecia
+Rama",12185-363,Obligatoria,483.8
+2026,"Colegio Baquedano
+Rama",22014-310,Lenguaje,619.2
+2026,"Colegio Baquedano
+Rama",22014-310,M1,632.7
+2026,"Colegio Baquedano
+Rama",22014-310,M2,423.5
+2026,"Colegio Baquedano
+Rama",22014-310,Historia,516.6
+2026,"Colegio Baquedano
+Rama",22014-310,Ciencias,469.5
+2026,"Colegio Baquedano
+Rama",22014-310,Obligatoria,626.9
+2026,"Martin Luther King College
+Rama",22160-310,Lenguaje,619.2
+2026,"Martin Luther King College
+Rama",22160-310,M1,632.7
+2026,"Martin Luther King College
+Rama",22160-310,M2,423.5
+2026,"Martin Luther King College
+Rama",22160-310,Historia,516.6
+2026,"Martin Luther King College
+Rama",22160-310,Ciencias,469.5
+2026,"Martin Luther King College
+Rama",22160-310,Obligatoria,626.9
+2026,"Colegio San Luis De Alba
+Rama",22177-310,Lenguaje,713.8
+2026,"Colegio San Luis De Alba
+Rama",22177-310,M1,787.1
+2026,"Colegio San Luis De Alba
+Rama",22177-310,M2,509.9
+2026,"Colegio San Luis De Alba
+Rama",22177-310,Historia,600.4
+2026,"Colegio San Luis De Alba
+Rama",22177-310,Ciencias,585.1
+2026,"Colegio San Luis De Alba
+Rama",22177-310,Obligatoria,750.4
+2026,"Centro Educacion Adultos Andres Bello
+Rama",22188-363,Lenguaje,482.8
+2026,"Centro Educacion Adultos Andres Bello
+Rama",22188-363,M1,484.5
+2026,"Centro Educacion Adultos Andres Bello
+Rama",22188-363,M2,358.7
+2026,"Centro Educacion Adultos Andres Bello
+Rama",22188-363,Historia,432.5
+2026,"Centro Educacion Adultos Andres Bello
+Rama",22188-363,Ciencias,377.1
+2026,"Centro Educacion Adultos Andres Bello
+Rama",22188-363,Obligatoria,483.8
+2026,"Colegio Domus Mater
+Rama",22231-310,Lenguaje,713.8
+2026,"Colegio Domus Mater
+Rama",22231-310,M1,787.1
+2026,"Colegio Domus Mater
+Rama",22231-310,M2,509.9
+2026,"Colegio Domus Mater
+Rama",22231-310,Historia,600.4
+2026,"Colegio Domus Mater
+Rama",22231-310,Ciencias,585.1
+2026,"Colegio Domus Mater
+Rama",22231-310,Obligatoria,750.4
+2026,"Instituto Inmaculada Concepcion
+Rama",22351-310,Lenguaje,619.2
+2026,"Instituto Inmaculada Concepcion
+Rama",22351-310,M1,632.7
+2026,"Instituto Inmaculada Concepcion
+Rama",22351-310,M2,423.5
+2026,"Instituto Inmaculada Concepcion
+Rama",22351-310,Historia,516.6
+2026,"Instituto Inmaculada Concepcion
+Rama",22351-310,Ciencias,469.5
+2026,"Instituto Inmaculada Concepcion
+Rama",22351-310,Obligatoria,626.9
+2026,"Instituto Tecnologico Del Sur
+Rama",22374-310,Lenguaje,619.2
+2026,"Instituto Tecnologico Del Sur
+Rama",22374-310,M1,632.7
+2026,"Instituto Tecnologico Del Sur
+Rama",22374-310,M2,423.5
+2026,"Instituto Tecnologico Del Sur
+Rama",22374-310,Historia,516.6
+2026,"Instituto Tecnologico Del Sur
+Rama",22374-310,Ciencias,469.5
+2026,"Instituto Tecnologico Del Sur
+Rama",22374-310,Obligatoria,626.9
+2026,"Instituto Tecnologico Del Sur
+Rama",22374-363,Lenguaje,482.8
+2026,"Instituto Tecnologico Del Sur
+Rama",22374-363,M1,484.5
+2026,"Instituto Tecnologico Del Sur
+Rama",22374-363,M2,358.7
+2026,"Instituto Tecnologico Del Sur
+Rama",22374-363,Historia,432.5
+2026,"Instituto Tecnologico Del Sur
+Rama",22374-363,Ciencias,377.1
+2026,"Instituto Tecnologico Del Sur
+Rama",22374-363,Obligatoria,483.8
+2026,Centro De Educ,22388-363,Lenguaje,482.8
+2026,Centro De Educ,22388-363,M1,484.5
+2026,Centro De Educ,22388-363,M2,358.7
+2026,Centro De Educ,22388-363,Historia,432.5
+2026,Centro De Educ,22388-363,Ciencias,377.1
+2026,Centro De Educ,22388-363,Obligatoria,483.8
+2026,"Colegio Aliwen
+Rama",22398-310,Lenguaje,619.2
+2026,"Colegio Aliwen
+Rama",22398-310,M1,632.7
+2026,"Colegio Aliwen
+Rama",22398-310,M2,423.5
+2026,"Colegio Aliwen
+Rama",22398-310,Historia,516.6
+2026,"Colegio Aliwen
+Rama",22398-310,Ciencias,469.5
+2026,"Colegio Aliwen
+Rama",22398-310,Obligatoria,626.9
+2026,Inst,22415-410,Lenguaje,556.0
+2026,Inst,22415-410,M1,573.9
+2026,Inst,22415-410,M2,393.6
+2026,Inst,22415-410,Historia,464.3
+2026,Inst,22415-410,Ciencias,404.5
+2026,Inst,22415-410,Obligatoria,566.0
+2026,Inst,22415-510,Lenguaje,552.2
+2026,Inst,22415-510,M1,593.4
+2026,Inst,22415-510,M2,404.4
+2026,Inst,22415-510,Historia,452.0
+2026,Inst,22415-510,Ciencias,402.8
+2026,Inst,22415-510,Obligatoria,573.4
+2026,Inst,22415-610,Lenguaje,524.8
+2026,Inst,22415-610,M1,517.9
+2026,Inst,22415-610,M2,389.7
+2026,Inst,22415-610,Historia,421.0
+2026,Inst,22415-610,Ciencias,403.4
+2026,Inst,22415-610,Obligatoria,523.0
+2026,"Colegio Laico Valdivia
+Rama",22459-310,Lenguaje,619.2
+2026,"Colegio Laico Valdivia
+Rama",22459-310,M1,632.7
+2026,"Colegio Laico Valdivia
+Rama",22459-310,M2,423.5
+2026,"Colegio Laico Valdivia
+Rama",22459-310,Historia,516.6
+2026,"Colegio Laico Valdivia
+Rama",22459-310,Ciencias,469.5
+2026,"Colegio Laico Valdivia
+Rama",22459-310,Obligatoria,626.9
+2026,"Centro Educacional San Nicolas
+Rama",22496-310,Lenguaje,619.2
+2026,"Centro Educacional San Nicolas
+Rama",22496-310,M1,632.7
+2026,"Centro Educacional San Nicolas
+Rama",22496-310,M2,423.5
+2026,"Centro Educacional San Nicolas
+Rama",22496-310,Historia,516.6
+2026,"Centro Educacional San Nicolas
+Rama",22496-310,Ciencias,469.5
+2026,"Centro Educacional San Nicolas
+Rama",22496-310,Obligatoria,626.9
+2026,"Centro Educacional San Nicolas
+Rama",22496-363,Lenguaje,482.8
+2026,"Centro Educacional San Nicolas
+Rama",22496-363,M1,484.5
+2026,"Centro Educacional San Nicolas
+Rama",22496-363,M2,358.7
+2026,"Centro Educacional San Nicolas
+Rama",22496-363,Historia,432.5
+2026,"Centro Educacional San Nicolas
+Rama",22496-363,Ciencias,377.1
+2026,"Centro Educacional San Nicolas
+Rama",22496-363,Obligatoria,483.8
+2026,"Instituto Cristiano Gracia Y Paz
+Rama",22516-310,Lenguaje,619.2
+2026,"Instituto Cristiano Gracia Y Paz
+Rama",22516-310,M1,632.7
+2026,"Instituto Cristiano Gracia Y Paz
+Rama",22516-310,M2,423.5
+2026,"Instituto Cristiano Gracia Y Paz
+Rama",22516-310,Historia,516.6
+2026,"Instituto Cristiano Gracia Y Paz
+Rama",22516-310,Ciencias,469.5
+2026,"Instituto Cristiano Gracia Y Paz
+Rama",22516-310,Obligatoria,626.9
+2026,"Instituto Italia De Valdivia
+Rama",22540-310,Lenguaje,602.5
+2026,"Instituto Italia De Valdivia
+Rama",22540-310,M1,600.8
+2026,"Instituto Italia De Valdivia
+Rama",22540-310,M2,412.7
+2026,"Instituto Italia De Valdivia
+Rama",22540-310,Historia,489.7
+2026,"Instituto Italia De Valdivia
+Rama",22540-310,Ciencias,438.7
+2026,"Instituto Italia De Valdivia
+Rama",22540-310,Obligatoria,603.3
+2026,"Hampton College
+Rama",22627-310,Lenguaje,713.8
+2026,"Hampton College
+Rama",22627-310,M1,787.1
+2026,"Hampton College
+Rama",22627-310,M2,509.9
+2026,"Hampton College
+Rama",22627-310,Historia,600.4
+2026,"Hampton College
+Rama",22627-310,Ciencias,585.1
+2026,"Hampton College
+Rama",22627-310,Obligatoria,750.4
+2026,"Colegio Los Conquistadores
+Rama",22629-310,Lenguaje,619.2
+2026,"Colegio Los Conquistadores
+Rama",22629-310,M1,632.7
+2026,"Colegio Los Conquistadores
+Rama",22629-310,M2,423.5
+2026,"Colegio Los Conquistadores
+Rama",22629-310,Historia,516.6
+2026,"Colegio Los Conquistadores
+Rama",22629-310,Ciencias,469.5
+2026,"Colegio Los Conquistadores
+Rama",22629-310,Obligatoria,626.9
+2026,Liceo Tec,22633-363,Lenguaje,482.8
+2026,Liceo Tec,22633-363,M1,484.5
+2026,Liceo Tec,22633-363,M2,358.7
+2026,Liceo Tec,22633-363,Historia,432.5
+2026,Liceo Tec,22633-363,Ciencias,377.1
+2026,Liceo Tec,22633-363,Obligatoria,483.8
+2026,Liceo Tec,22633-563,Lenguaje,520.0
+2026,Liceo Tec,22633-563,M1,472.0
+2026,Liceo Tec,22633-563,M2,0.0
+2026,Liceo Tec,22633-563,Historia,503.5
+2026,Liceo Tec,22633-563,Ciencias,387.3
+2026,Liceo Tec,22633-563,Obligatoria,496.0
+2026,"Instituto Principe De Asturias
+Rama",22634-310,Lenguaje,619.2
+2026,"Instituto Principe De Asturias
+Rama",22634-310,M1,632.7
+2026,"Instituto Principe De Asturias
+Rama",22634-310,M2,423.5
+2026,"Instituto Principe De Asturias
+Rama",22634-310,Historia,516.6
+2026,"Instituto Principe De Asturias
+Rama",22634-310,Ciencias,469.5
+2026,"Instituto Principe De Asturias
+Rama",22634-310,Obligatoria,626.9
+2026,"Master College
+Rama",22759-310,Lenguaje,619.2
+2026,"Master College
+Rama",22759-310,M1,632.7
+2026,"Master College
+Rama",22759-310,M2,423.5
+2026,"Master College
+Rama",22759-310,Historia,516.6
+2026,"Master College
+Rama",22759-310,Ciencias,469.5
+2026,"Master College
+Rama",22759-310,Obligatoria,626.9
+2026,"Liceo Bicentenario Ciudad De Los Rios Valdivi
+Rama",31010-310,Lenguaje,602.5
+2026,"Liceo Bicentenario Ciudad De Los Rios Valdivi
+Rama",31010-310,M1,600.8
+2026,"Liceo Bicentenario Ciudad De Los Rios Valdivi
+Rama",31010-310,M2,412.7
+2026,"Liceo Bicentenario Ciudad De Los Rios Valdivi
+Rama",31010-310,Historia,489.7
+2026,"Liceo Bicentenario Ciudad De Los Rios Valdivi
+Rama",31010-310,Ciencias,438.7
+2026,"Liceo Bicentenario Ciudad De Los Rios Valdivi
+Rama",31010-310,Obligatoria,603.3
+2026,"Instituto Bicentenario De Excelencia Chile Asia Pac
+Rama",31012-310,Lenguaje,619.2
+2026,"Instituto Bicentenario De Excelencia Chile Asia Pac
+Rama",31012-310,M1,632.7
+2026,"Instituto Bicentenario De Excelencia Chile Asia Pac
+Rama",31012-310,M2,423.5
+2026,"Instituto Bicentenario De Excelencia Chile Asia Pac
+Rama",31012-310,Historia,516.6
+2026,"Instituto Bicentenario De Excelencia Chile Asia Pac
+Rama",31012-310,Ciencias,469.5
+2026,"Instituto Bicentenario De Excelencia Chile Asia Pac
+Rama",31012-310,Obligatoria,626.9
+2026,"Colegio Comunitario Enlace
+Rama",41712-363,Lenguaje,482.8
+2026,"Colegio Comunitario Enlace
+Rama",41712-363,M1,484.5
+2026,"Colegio Comunitario Enlace
+Rama",41712-363,M2,358.7
+2026,"Colegio Comunitario Enlace
+Rama",41712-363,Historia,432.5
+2026,"Colegio Comunitario Enlace
+Rama",41712-363,Ciencias,377.1
+2026,"Colegio Comunitario Enlace
+Rama",41712-363,Obligatoria,483.8
+2026,"Instituto Comercial De Valdivia
+Rama",6751-410,Lenguaje,556.0
+2026,"Instituto Comercial De Valdivia
+Rama",6751-410,M1,573.9
+2026,"Instituto Comercial De Valdivia
+Rama",6751-410,M2,393.6
+2026,"Instituto Comercial De Valdivia
+Rama",6751-410,Historia,464.3
+2026,"Instituto Comercial De Valdivia
+Rama",6751-410,Ciencias,404.5
+2026,"Instituto Comercial De Valdivia
+Rama",6751-410,Obligatoria,566.0
+2026,"Instituto Comercial De Valdivia
+Rama",6751-510,Lenguaje,552.2
+2026,"Instituto Comercial De Valdivia
+Rama",6751-510,M1,593.4
+2026,"Instituto Comercial De Valdivia
+Rama",6751-510,M2,404.4
+2026,"Instituto Comercial De Valdivia
+Rama",6751-510,Historia,452.0
+2026,"Instituto Comercial De Valdivia
+Rama",6751-510,Ciencias,402.8
+2026,"Instituto Comercial De Valdivia
+Rama",6751-510,Obligatoria,573.4
+2026,"Liceo Tecnico Valdivia
+Rama",6752-610,Lenguaje,524.8
+2026,"Liceo Tecnico Valdivia
+Rama",6752-610,M1,517.9
+2026,"Liceo Tecnico Valdivia
+Rama",6752-610,M2,389.7
+2026,"Liceo Tecnico Valdivia
+Rama",6752-610,Historia,421.0
+2026,"Liceo Tecnico Valdivia
+Rama",6752-610,Ciencias,403.4
+2026,"Liceo Tecnico Valdivia
+Rama",6752-610,Obligatoria,523.0
+2026,"Liceo Santa Maria La Blanca
+Rama",6753-310,Lenguaje,602.5
+2026,"Liceo Santa Maria La Blanca
+Rama",6753-310,M1,600.8
+2026,"Liceo Santa Maria La Blanca
+Rama",6753-310,M2,412.7
+2026,"Liceo Santa Maria La Blanca
+Rama",6753-310,Historia,489.7
+2026,"Liceo Santa Maria La Blanca
+Rama",6753-310,Ciencias,438.7
+2026,"Liceo Santa Maria La Blanca
+Rama",6753-310,Obligatoria,603.3
+2026,"Liceo Armando Robles Rivera
+Rama",6754-310,Lenguaje,602.5
+2026,"Liceo Armando Robles Rivera
+Rama",6754-310,M1,600.8
+2026,"Liceo Armando Robles Rivera
+Rama",6754-310,M2,412.7
+2026,"Liceo Armando Robles Rivera
+Rama",6754-310,Historia,489.7
+2026,"Liceo Armando Robles Rivera
+Rama",6754-310,Ciencias,438.7
+2026,"Liceo Armando Robles Rivera
+Rama",6754-310,Obligatoria,603.3
+2026,"Liceo Industrial Valdivia
+Rama",6755-510,Lenguaje,552.2
+2026,"Liceo Industrial Valdivia
+Rama",6755-510,M1,593.4
+2026,"Liceo Industrial Valdivia
+Rama",6755-510,M2,404.4
+2026,"Liceo Industrial Valdivia
+Rama",6755-510,Historia,452.0
+2026,"Liceo Industrial Valdivia
+Rama",6755-510,Ciencias,402.8
+2026,"Liceo Industrial Valdivia
+Rama",6755-510,Obligatoria,573.4
+2026,"Instituto De Recursos Renovables Y Tecnología Los R
+Rama",6757-510,Lenguaje,552.2
+2026,"Instituto De Recursos Renovables Y Tecnología Los R
+Rama",6757-510,M1,593.4
+2026,"Instituto De Recursos Renovables Y Tecnología Los R
+Rama",6757-510,M2,404.4
+2026,"Instituto De Recursos Renovables Y Tecnología Los R
+Rama",6757-510,Historia,452.0
+2026,"Instituto De Recursos Renovables Y Tecnología Los R
+Rama",6757-510,Ciencias,402.8
+2026,"Instituto De Recursos Renovables Y Tecnología Los R
+Rama",6757-510,Obligatoria,573.4
+2026,"Instituto De Recursos Renovables Y Tecnología Los R
+Rama",6757-710,Lenguaje,497.5
+2026,"Instituto De Recursos Renovables Y Tecnología Los R
+Rama",6757-710,M1,523.5
+2026,"Instituto De Recursos Renovables Y Tecnología Los R
+Rama",6757-710,M2,366.0
+2026,"Instituto De Recursos Renovables Y Tecnología Los R
+Rama",6757-710,Historia,387.0
+2026,"Instituto De Recursos Renovables Y Tecnología Los R
+Rama",6757-710,Ciencias,394.0
+2026,"Instituto De Recursos Renovables Y Tecnología Los R
+Rama",6757-710,Obligatoria,510.5
+2026,"Colegio Teniente Hernan Merino Correa
+Rama",6766-310,Lenguaje,602.5
+2026,"Colegio Teniente Hernan Merino Correa
+Rama",6766-310,M1,600.8
+2026,"Colegio Teniente Hernan Merino Correa
+Rama",6766-310,M2,412.7
+2026,"Colegio Teniente Hernan Merino Correa
+Rama",6766-310,Historia,489.7
+2026,"Colegio Teniente Hernan Merino Correa
+Rama",6766-310,Ciencias,438.7
+2026,"Colegio Teniente Hernan Merino Correa
+Rama",6766-310,Obligatoria,603.3
+2026,"Colegio Bicentenario De Musica Juan Sebastian Bach
+Rama",6770-310,Lenguaje,602.5
+2026,"Colegio Bicentenario De Musica Juan Sebastian Bach
+Rama",6770-310,M1,600.8
+2026,"Colegio Bicentenario De Musica Juan Sebastian Bach
+Rama",6770-310,M2,412.7
+2026,"Colegio Bicentenario De Musica Juan Sebastian Bach
+Rama",6770-310,Historia,489.7
+2026,"Colegio Bicentenario De Musica Juan Sebastian Bach
+Rama",6770-310,Ciencias,438.7
+2026,"Colegio Bicentenario De Musica Juan Sebastian Bach
+Rama",6770-310,Obligatoria,603.3
+2026,Centro Educ,6787-363,Lenguaje,500.3
+2026,Centro Educ,6787-363,M1,525.8
+2026,Centro Educ,6787-363,M2,452.3
+2026,Centro Educ,6787-363,Historia,416.6
+2026,Centro Educ,6787-363,Ciencias,384.9
+2026,Centro Educ,6787-363,Obligatoria,513.0
+2026,"Escuela De Niebla Juan Bosch
+Rama",6791-363,Lenguaje,500.3
+2026,"Escuela De Niebla Juan Bosch
+Rama",6791-363,M1,525.8
+2026,"Escuela De Niebla Juan Bosch
+Rama",6791-363,M2,452.3
+2026,"Escuela De Niebla Juan Bosch
+Rama",6791-363,Historia,416.6
+2026,"Escuela De Niebla Juan Bosch
+Rama",6791-363,Ciencias,384.9
+2026,"Escuela De Niebla Juan Bosch
+Rama",6791-363,Obligatoria,513.0
+2026,"Colegio Santa Marta De Valdivia
+Rama",6826-310,Lenguaje,619.2
+2026,"Colegio Santa Marta De Valdivia
+Rama",6826-310,M1,632.7
+2026,"Colegio Santa Marta De Valdivia
+Rama",6826-310,M2,423.5
+2026,"Colegio Santa Marta De Valdivia
+Rama",6826-310,Historia,516.6
+2026,"Colegio Santa Marta De Valdivia
+Rama",6826-310,Ciencias,469.5
+2026,"Colegio Santa Marta De Valdivia
+Rama",6826-310,Obligatoria,626.9
+2026,"Colegio Austral
+Rama",6828-310,Lenguaje,619.2
+2026,"Colegio Austral
+Rama",6828-310,M1,632.7
+2026,"Colegio Austral
+Rama",6828-310,M2,423.5
+2026,"Colegio Austral
+Rama",6828-310,Historia,516.6
+2026,"Colegio Austral
+Rama",6828-310,Ciencias,469.5
+2026,"Colegio Austral
+Rama",6828-310,Obligatoria,626.9
+2026,"Instituto Salesiano
+Rama",6829-310,Lenguaje,619.2
+2026,"Instituto Salesiano
+Rama",6829-310,M1,632.7
+2026,"Instituto Salesiano
+Rama",6829-310,M2,423.5
+2026,"Instituto Salesiano
+Rama",6829-310,Historia,516.6
+2026,"Instituto Salesiano
+Rama",6829-310,Ciencias,469.5
+2026,"Instituto Salesiano
+Rama",6829-310,Obligatoria,626.9
+2026,"Colegio Nuestra Senora Del Carmen
+Rama",6830-310,Lenguaje,619.2
+2026,"Colegio Nuestra Senora Del Carmen
+Rama",6830-310,M1,632.7
+2026,"Colegio Nuestra Senora Del Carmen
+Rama",6830-310,M2,423.5
+2026,"Colegio Nuestra Senora Del Carmen
+Rama",6830-310,Historia,516.6
+2026,"Colegio Nuestra Senora Del Carmen
+Rama",6830-310,Ciencias,469.5
+2026,"Colegio Nuestra Senora Del Carmen
+Rama",6830-310,Obligatoria,626.9
+2026,"Colegio Maria Auxiliadora
+Rama",6832-310,Lenguaje,619.2
+2026,"Colegio Maria Auxiliadora
+Rama",6832-310,M1,632.7
+2026,"Colegio Maria Auxiliadora
+Rama",6832-310,M2,423.5
+2026,"Colegio Maria Auxiliadora
+Rama",6832-310,Historia,516.6
+2026,"Colegio Maria Auxiliadora
+Rama",6832-310,Ciencias,469.5
+2026,"Colegio Maria Auxiliadora
+Rama",6832-310,Obligatoria,626.9
+2026,"Colegio Metodista La Trinidad
+Rama",6834-310,Lenguaje,619.2
+2026,"Colegio Metodista La Trinidad
+Rama",6834-310,M1,632.7
+2026,"Colegio Metodista La Trinidad
+Rama",6834-310,M2,423.5
+2026,"Colegio Metodista La Trinidad
+Rama",6834-310,Historia,516.6
+2026,"Colegio Metodista La Trinidad
+Rama",6834-310,Ciencias,469.5
+2026,"Colegio Metodista La Trinidad
+Rama",6834-310,Obligatoria,626.9
+2026,"Colegio Adventista De Valdivia
+Rama",6835-310,Lenguaje,619.2
+2026,"Colegio Adventista De Valdivia
+Rama",6835-310,M1,632.7
+2026,"Colegio Adventista De Valdivia
+Rama",6835-310,M2,423.5
+2026,"Colegio Adventista De Valdivia
+Rama",6835-310,Historia,516.6
+2026,"Colegio Adventista De Valdivia
+Rama",6835-310,Ciencias,469.5
+2026,"Colegio Adventista De Valdivia
+Rama",6835-310,Obligatoria,626.9
+2026,"Colegio Alonso De Ercilla
+Rama",6836-310,Lenguaje,619.2
+2026,"Colegio Alonso De Ercilla
+Rama",6836-310,M1,632.7
+2026,"Colegio Alonso De Ercilla
+Rama",6836-310,M2,423.5
+2026,"Colegio Alonso De Ercilla
+Rama",6836-310,Historia,516.6
+2026,"Colegio Alonso De Ercilla
+Rama",6836-310,Ciencias,469.5
+2026,"Colegio Alonso De Ercilla
+Rama",6836-310,Obligatoria,626.9
+2026,"Colegio Windsor School
+Rama",6843-310,Lenguaje,713.8
+2026,"Colegio Windsor School
+Rama",6843-310,M1,787.1
+2026,"Colegio Windsor School
+Rama",6843-310,M2,509.9
+2026,"Colegio Windsor School
+Rama",6843-310,Historia,600.4
+2026,"Colegio Windsor School
+Rama",6843-310,Ciencias,585.1
+2026,"Colegio Windsor School
+Rama",6843-310,Obligatoria,750.4
+2026,"Instituto Aleman Carlos Anwandter
+Rama",6844-310,Lenguaje,713.8
+2026,"Instituto Aleman Carlos Anwandter
+Rama",6844-310,M1,787.1
+2026,"Instituto Aleman Carlos Anwandter
+Rama",6844-310,M2,509.9
+2026,"Instituto Aleman Carlos Anwandter
+Rama",6844-310,Historia,600.4
+2026,"Instituto Aleman Carlos Anwandter
+Rama",6844-310,Ciencias,585.1
+2026,"Instituto Aleman Carlos Anwandter
+Rama",6844-310,Obligatoria,750.4

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mapa interactivo puntajes PAES </title>
+  <meta charset="utf-8" />
+  <!-- Estilos de Leaflet -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <style>
+    #map { height: 900px; }
+  </style>
+</head>
+<body>
+  <h2>Prueba </h2>
+  <select id="asignatura">
+    <option value="Matematicas">Matematicas</option>
+    <option value="Lenguaje">Lenguaje</option>
+  </select>
+
+  <div id="map"></div>
+
+  <!-- Librería Leaflet -->
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script>
+    // Crear mapa centrado en Chile
+    var map = L.map('map').setView([-39.8, -73.2], 12);
+
+    // Capa base (OpenStreetMap)
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '© OpenStreetMap contributors'
+    }).addTo(map);
+
+    // Ejemplo de datos (GeoJSON simplificado)
+    var datos = {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": { "empresa": "Planta A", "toneladas": 120 },
+          "geometry": { "type": "Point", "coordinates": [-73.2, -39.8] }
+        }
+      ]
+    };
+
+    // Mostrar puntos en el mapa
+    L.geoJSON(datos, {
+      onEachFeature: function (feature, layer) {
+        layer.bindPopup("Empresa: " + feature.properties.empresa +
+                        "<br>Toneladas: " + feature.properties.toneladas);
+      }
+    }).addTo(map);
+
+    // Filtro por año (ejemplo básico)
+    document.getElementById("year").addEventListener("change", function(e) {
+      alert("Mostrando datos del año: " + e.target.value);
+      // Aquí se recargarían los datos filtrados
+    });
+  </script>
+</body>
+</html>
