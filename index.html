@@ -9,20 +9,27 @@
 </head>
 
 <body>
-    <h2>Resultados PAES – Comuna de Valdivia</h2>
-    <select id="selector-prueba">
-    <option value="Lenguaje">Lenguaje</option>
-    <option value="M1">Matemática 1</option>
-    <option value="M2">Matemática 2</option>
-    <option value="Historia">Historia</option>
-    <option value="Ciencias">Ciencias</option>
-    <option value="Obligatoria">Obligatoria</option>
+  <div id="selector-prueba" class="selector-prueba">
+    <select id="pruebaSelect">
+        <option value="Lenguaje">Lenguaje</option>
+        <option value="M1">M1</option>
+        <option value="M2">M2</option>
+        <option value="Historia">Historia</option>
+        <option value="Ciencias">Ciencias</option>
+        <option value="Obligatoria">Obligatoria</option>
+    </select>
+</div>
+
 </select>
 
 
-<div id="map"></div>
+<div id="map">
+    <div class="map-title">
+        <h3>Resultados PAES 2026 – Valdivia</h3>
+        <span id="subtitulo-prueba">Lenguaje</span>
+    </div>
+</div>
 
-    <div id="map"></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <script src="js/map.js"></script>

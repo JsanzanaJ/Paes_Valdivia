@@ -1,118 +1,188 @@
-// =========================
-// COLORES
-// =========================
-function colorPorValor(valor) {
+// ================================
+// FUNCIÓN DE COLOR SEGÚN PUNTAJE
+// ================================
+function colorPorPuntaje(valor) {
     return valor > 650 ? "#1a9850" :
            valor > 550 ? "#66bd63" :
            valor > 450 ? "#fee08b" :
                          "#d73027";
 }
 
-const RANGOS = [
-    { min: 650, label: "≥ 650", color: "#1a9850" },
-    { min: 550, label: "550 – 649", color: "#66bd63" },
-    { min: 450, label: "450 – 549", color: "#fee08b" },
-    { min: 0,   label: "< 450", color: "#d73027" }
-];
+// ================================
+// VARIABLE DE PRUEBA ACTIVA
+// ================================
+let pruebaActiva = "Lenguaje";
+let capaColegios = null;
 
+// ================================
+// INICIAR MAPA
+// ================================
 document.addEventListener("DOMContentLoaded", () => {
 
     const map = L.map("map").setView([-39.825, -73.245], 13);
 
-    L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-        attribution: "&copy; OpenStreetMap contributors"
-    }).addTo(map);
+    // ================================
+    // CAPAS BASE
+    // ================================
+    const positron = L.tileLayer(
+        "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+        { attribution: "&copy; CARTO" }
+    ).addTo(map);
 
-    let capaGeojson;
-    let geojsonData;
-    let pruebaActual = "Lenguaje";
+    const dark = L.tileLayer(
+        "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png",
+        { attribution: "&copy; CARTO" }
+    );
 
-    // =========================
-    // LEYENDA COMO CONTROL
-    // =========================
-    const leyenda = L.control({ position: "bottomright" });
+    L.control.layers(
+        { "Claro": positron, "Oscuro": dark },
+        null,
+        { position: "topright" }
+    ).addTo(map);
 
-    leyenda.onAdd = function () {
-        this._div = L.DomUtil.create("div", "leyenda leaflet-control");
-        this.actualizar();
-        return this._div;
-    };
+    // ================================
+    // TÍTULO CENTRADO
+    // ================================
+   // const titulo = L.control({ position: "topleft" });
+//
+   // titulo.onAdd = function () {
+   //     const div = L.DomUtil.create("div", "map-title");
+  //      div.innerHTML = `
+   //         <h3>Resultados PAES 2026 – Valdivia</h3>
+   //         <span id="subtitulo-prueba">${pruebaActiva}</span>
+  //      `;
+  //      return div;
+   // };
 
-    leyenda.actualizar = function () {
-        this._div.innerHTML = `
-            <b>${pruebaActual}</b><br>
-            ${RANGOS.map(r => `
-                <i style="background:${r.color}"></i> ${r.label}<br>
-            `).join("")}
+  //  titulo.addTo(map);
+
+    // ================================
+    // LEYENDA DINÁMICA
+    // ================================
+    const legend = L.control({ position: "bottomright" });
+
+    legend.onAdd = function () {
+        const div = L.DomUtil.create("div", "info legend");
+        div.innerHTML = `
+            <strong>${pruebaActiva}</strong><br>
+            <i style="background:#1a9850"></i> &gt; 650<br>
+            <i style="background:#66bd63"></i> 550 – 650<br>
+            <i style="background:#fee08b"></i> 450 – 550<br>
+            <i style="background:#d73027"></i> &lt; 450
         `;
+        return div;
     };
 
-    leyenda.addTo(map);
+    legend.addTo(map);
 
-    // =========================
-    // CARGA GEOJSON
-    // =========================
+    // ================================
+    // CARGAR GEOJSON
+    // ================================
     fetch("data/processed/colegios_paes_valdivia.geojson")
         .then(r => r.json())
         .then(data => {
-            geojsonData = data;
-            dibujarCapa();
-        });
 
-    function dibujarCapa() {
-        if (capaGeojson) {
-            map.removeLayer(capaGeojson);
-        }
+            function dibujarMapa() {
 
-        capaGeojson = L.geoJSON(geojsonData, {
-            pointToLayer: (feature, latlng) => {
-                const valor = feature.properties[pruebaActual];
-
-                return L.circleMarker(latlng, {
-                    radius: 8,
-                    fillColor: colorPorValor(valor),
-                    color: "#333",
-                    weight: 1,
-                    fillOpacity: 0.85
-                });
-            },
-            onEachFeature: (feature, layer) => {
-
-                const nombre = feature.properties.establecimiento;
-                const valor = feature.properties[pruebaActual];
-
-                // Tooltip (hover)
-                layer.bindTooltip(
-                 `<b>${nombre}</b><br>${pruebaActual}: ${valor}`,
-                {
-                    direction: "top",
-                    sticky: true,
-                    opacity: 0.9
+                if (capaColegios) {
+                    map.removeLayer(capaColegios);
                 }
-        );
 
-                //pop up click
-                layer.bindPopup(`
-                    <b>${feature.properties.establecimiento}</b><br>
-                    Lenguaje: ${feature.properties.Lenguaje}<br>
-                    M1: ${feature.properties.M1}<br>
-                    M2: ${feature.properties.M2}<br>
-                    Historia: ${feature.properties.Historia}<br>
-                    Ciencias: ${feature.properties.Ciencias}<br>
-                    Obligatoria: ${feature.properties.Obligatoria}
-                `);
+                capaColegios = L.geoJSON(data, {
+                    pointToLayer: (feature, latlng) => {
+                        const valor = feature.properties[pruebaActiva];
+
+                        return L.circleMarker(latlng, {
+                            radius: 8,
+                            fillColor: colorPorPuntaje(valor),
+                            color: "#333",
+                            weight: 1,
+                            fillOpacity: 0.9
+                        });
+                    },
+
+                    onEachFeature: (feature, layer) => {
+
+                        // ================================
+                        // POPUP (CLICK)
+                        // ================================
+                        layer.bindPopup(`
+                            <b>${feature.properties.establecimiento}</b><br>
+                            Lenguaje: ${feature.properties.Lenguaje}<br>
+                            M1: ${feature.properties.M1}<br>
+                            M2: ${feature.properties.M2}<br>
+                            Historia: ${feature.properties.Historia}<br>
+                            Ciencias: ${feature.properties.Ciencias}<br>
+                            Obligatoria: ${feature.properties.Obligatoria}
+                        `);
+
+                        // ================================
+                        // TOOLTIP (HOVER)
+                        // ================================
+                        layer.on("mouseover", () => {
+                            const valor = feature.properties[pruebaActiva];
+                            layer.bindTooltip(
+                                `<b>${feature.properties.establecimiento}</b><br>
+                                 ${pruebaActiva}: <b>${valor}</b>`,
+                                { sticky: true, opacity: 0.95 }
+                            ).openTooltip();
+                        });
+
+                        layer.on("mouseout", () => {
+                            layer.closeTooltip();
+                        });
+
+                        // ================================
+                        // CLICK → RESALTAR COLEGIO
+                        // ================================
+                        layer.on("click", () => {
+
+                            capaColegios.eachLayer(l => {
+                                l.setStyle({
+                                    radius: 8,
+                                    weight: 1,
+                                    fillOpacity: 0.3
+                                });
+                            });
+
+                            layer.setStyle({
+                                radius: 12,
+                                weight: 3,
+                                fillOpacity: 1
+                            });
+                        });
+
+                        layer.on("popupclose", () => {
+                            capaColegios.eachLayer(l => {
+                                l.setStyle({
+                                    radius: 8,
+                                    weight: 1,
+                                    fillOpacity: 0.9
+                                });
+                            });
+                        });
+                    }
+                }).addTo(map);
+
+                // actualizar leyenda y subtítulo
+                legend.remove();
+                legend.addTo(map);
+                document.getElementById("subtitulo-prueba").textContent = pruebaActiva;
             }
-        }).addTo(map);
-    }
 
-    // =========================
-    // SELECTOR
-    // =========================
-    document
-        .getElementById("selector-prueba")
-        .addEventListener("change", (e) => {
-            pruebaActual = e.target.value;
-            dibujarCapa();
-            leyenda.actualizar();
-        });
+            dibujarMapa();
+
+            // ================================
+            // SELECTOR DE PRUEBAS
+            // ================================
+            document
+                .getElementById("selector-prueba")
+                .addEventListener("change", (e) => {
+                    pruebaActiva = e.target.value;
+                    dibujarMapa();
+                });
+
+            console.log("✅ Mapa completo y funcional");
+        })
+        .catch(err => console.error("❌ Error cargando GeoJSON", err));
 });
