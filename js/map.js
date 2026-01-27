@@ -48,7 +48,7 @@ document.addEventListener("DOMContentLoaded", () => {
         { position: "topright" }
     ).addTo(map);
 
- 
+
     // ================================
     // LEYENDA DINÁMICA
     // ================================
@@ -67,6 +67,15 @@ document.addEventListener("DOMContentLoaded", () => {
     };
 
     legend.addTo(map);
+    map.on("zoomend", () => {
+    if (!capaColegios) return;
+
+    const zoom = map.getZoom();
+
+    capaColegios.eachLayer(layer => {
+        layer.setRadius(radioPorZoom(zoom));
+    });
+    });
 
     // ================================
     // CARGAR GEOJSON
