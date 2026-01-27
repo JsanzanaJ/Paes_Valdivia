@@ -8,6 +8,14 @@ function colorPorPuntaje(valor) {
                          "#d73027";
 }
 
+function radioPorZoom(zoom) {
+    if (zoom <= 12) return 5;
+    if (zoom === 13) return 7;
+    if (zoom === 14) return 9;
+    if (zoom === 15) return 11;
+    return 13;
+}
+
 // ================================
 // VARIABLE DE PRUEBA ACTIVA
 // ================================
@@ -40,22 +48,7 @@ document.addEventListener("DOMContentLoaded", () => {
         { position: "topright" }
     ).addTo(map);
 
-    // ================================
-    // TÍTULO CENTRADO
-    // ================================
-   // const titulo = L.control({ position: "topleft" });
-//
-   // titulo.onAdd = function () {
-   //     const div = L.DomUtil.create("div", "map-title");
-  //      div.innerHTML = `
-   //         <h3>Resultados PAES 2026 – Valdivia</h3>
-   //         <span id="subtitulo-prueba">${pruebaActiva}</span>
-  //      `;
-  //      return div;
-   // };
-
-  //  titulo.addTo(map);
-
+ 
     // ================================
     // LEYENDA DINÁMICA
     // ================================
@@ -93,7 +86,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         const valor = feature.properties[pruebaActiva];
 
                         return L.circleMarker(latlng, {
-                            radius: 8,
+                            radius: radioPorZoom(map.getZoom()),
                             fillColor: colorPorPuntaje(valor),
                             color: "#333",
                             weight: 1,
