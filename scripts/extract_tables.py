@@ -14,6 +14,7 @@ OUTPUT.parent.mkdir(parents=True, exist_ok=True)
 # =========================
 # FUNCIONES
 # =========================
+
 def extraer_establecimiento(pdf, max_pages=4):
     for i in range(min(max_pages, len(pdf.pages))):
         text = pdf.pages[i].extract_text() or ""
@@ -51,12 +52,27 @@ def detectar_prueba(texto):
     if "HISTORIA Y CIENCIAS SOCIALES" in t:
         return "Historia"
 
-    # Ciencias SOLO si no es Historia
     if "CIENCIAS" in t and "HISTORIA" not in t:
         return "Ciencias"
 
     if "OBLIGATORIA" in t:
         return "Obligatoria"
+
+    return None
+
+
+def extraer_promedio_colegio(texto):
+    """
+    Extrae el promedio real del colegio desde la tabla superior.
+    """
+    match = re.search(r"PROMEDIO\s+([0-9]+(?:[.,][0-9]+)?)", texto)
+
+    if match:
+        return float(
+            match.group(1)
+            .replace(".", "")
+            .replace(",", ".")
+        )
 
     return None
 
@@ -91,38 +107,26 @@ for pdf_file in PDF_DIR.glob("adm*.pdf"):
             if not prueba:
                 continue
 
-            tables = page.extract_tables()
-            for table in tables:
-                for row in table:
-                    if not row or len(row) < 4:
-                        continue
+            promedio = extraer_promedio_colegio(text)
+            if promedio is None:
+                continue
 
-                    if str(row[0]).strip().upper() == "COMUNA":
-                        try:
-                            promedio = float(
-                                str(row[3])
-                                .replace(".", "")
-                                .replace(",", ".")
-                            )
+            rows.append({
+                "anio": anio,
+                "establecimiento": establecimiento,
+                "rbd": rbd,
+                "prueba": prueba,
+                "promedio": promedio
+            })
 
-                            rows.append({
-                                "anio": anio,
-                                "establecimiento": establecimiento,
-                                "rbd": rbd,
-                                "prueba": prueba,
-                                "promedio": promedio
-                            })
-
-                            print(f"✔ {establecimiento} | {prueba}: {promedio}")
-
-                        except Exception:
-                            pass
+            print(f"✔ {establecimiento} | {prueba}: {promedio}")
 
 # =========================
 # SALIDA
 # =========================
 df = pd.DataFrame(rows)
-df.to_csv(OUTPUT, index=False)
+
+df.to_csv(OUTPUT, index=False, encoding="utf-8")
 
 print("\n📊 Extracción finalizada")
 print(f"Filas totales: {len(df)}")
