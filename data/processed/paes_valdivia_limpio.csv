@@ -1,4 +1,46 @@
 anio,establecimiento,rbd,prueba,promedio
+2024,"Escuela Particular El Prado
+Rama",22158,Lenguaje,473.0
+2024,"Escuela Particular El Prado
+Rama",22158,M1,392.0
+2024,"Escuela Particular El Prado
+Rama",22158,M2,348.0
+2024,"Escuela Particular El Prado
+Rama",22158,Historia,0.0
+2024,"Escuela Particular El Prado
+Rama",22158,Ciencias,425.0
+2024,"Escuela Particular El Prado
+Rama",22158,Obligatoria,432.5
+2024,"Colegio San Antonio
+Rama",22317,Lenguaje,409.0
+2024,"Colegio San Antonio
+Rama",22317,M1,424.0
+2024,"Colegio San Antonio
+Rama",22317,M2,0.0
+2024,"Colegio San Antonio
+Rama",22317,Historia,0.0
+2024,"Colegio San Antonio
+Rama",22317,Ciencias,0.0
+2024,"Colegio San Antonio
+Rama",22317,Obligatoria,416.5
+2024,"Escuela El Maiten
+Rama",22354,Lenguaje,439.3
+2024,"Escuela El Maiten
+Rama",22354,M1,403.8
+2024,"Escuela El Maiten
+Rama",22354,M2,0.0
+2024,"Escuela El Maiten
+Rama",22354,Historia,398.0
+2024,"Escuela El Maiten
+Rama",22354,Ciencias,359.0
+2024,"Escuela El Maiten
+Rama",22354,Obligatoria,421.5
+2024,Centro De Educ,22445,Lenguaje,388.0
+2024,Centro De Educ,22445,M1,465.0
+2024,Centro De Educ,22445,M2,0.0
+2024,Centro De Educ,22445,Historia,0.0
+2024,Centro De Educ,22445,Ciencias,418.0
+2024,Centro De Educ,22445,Obligatoria,426.5
 2024,"Liceo Politecnico Benjamin Vicuna Mackenna
 Rama",6757,Lenguaje,378.0
 2024,"Liceo Politecnico Benjamin Vicuna Mackenna
@@ -11,6 +53,42 @@ Rama",6757,Historia,0.0
 Rama",6757,Ciencias,0.0
 2024,"Liceo Politecnico Benjamin Vicuna Mackenna
 Rama",6757,Obligatoria,407.0
+2024,"Liceo Bicentenario Vicente Pérez Rosales
+Rama",7236,Lenguaje,483.5
+2024,"Liceo Bicentenario Vicente Pérez Rosales
+Rama",7236,M1,499.5
+2024,"Liceo Bicentenario Vicente Pérez Rosales
+Rama",7236,M2,0.0
+2024,"Liceo Bicentenario Vicente Pérez Rosales
+Rama",7236,Historia,396.0
+2024,"Liceo Bicentenario Vicente Pérez Rosales
+Rama",7236,Ciencias,556.0
+2024,"Liceo Bicentenario Vicente Pérez Rosales
+Rama",7236,Obligatoria,491.5
+2025,"Colegio Cardenal Raul Silva Henriquez
+Rama",22313,Lenguaje,572.3
+2025,"Colegio Cardenal Raul Silva Henriquez
+Rama",22313,M1,614.3
+2025,"Colegio Cardenal Raul Silva Henriquez
+Rama",22313,M2,0.0
+2025,"Colegio Cardenal Raul Silva Henriquez
+Rama",22313,Historia,416.2
+2025,"Colegio Cardenal Raul Silva Henriquez
+Rama",22313,Ciencias,482.8
+2025,"Colegio Cardenal Raul Silva Henriquez
+Rama",22313,Obligatoria,593.3
+2025,"Colegio Particular Cardenal Raul Silva Henriq
+Rama",22495,Lenguaje,542.5
+2025,"Colegio Particular Cardenal Raul Silva Henriq
+Rama",22495,M1,547.0
+2025,"Colegio Particular Cardenal Raul Silva Henriq
+Rama",22495,M2,354.3
+2025,"Colegio Particular Cardenal Raul Silva Henriq
+Rama",22495,Historia,441.5
+2025,"Colegio Particular Cardenal Raul Silva Henriq
+Rama",22495,Ciencias,436.9
+2025,"Colegio Particular Cardenal Raul Silva Henriq
+Rama",22495,Obligatoria,546.8
 2025,"Instituto Comercial De Valdivia
 Rama",6751,Lenguaje,498.0
 2025,"Instituto Comercial De Valdivia
@@ -23,6 +101,90 @@ Rama",6751,Historia,484.0
 Rama",6751,Ciencias,452.0
 2025,"Instituto Comercial De Valdivia
 Rama",6751,Obligatoria,494.8
+2025,"Liceo Politecnico Pesquero
+Rama",6853,Lenguaje,570.7
+2025,"Liceo Politecnico Pesquero
+Rama",6853,M1,585.6
+2025,"Liceo Politecnico Pesquero
+Rama",6853,M2,433.5
+2025,"Liceo Politecnico Pesquero
+Rama",6853,Historia,558.0
+2025,"Liceo Politecnico Pesquero
+Rama",6853,Ciencias,430.2
+2025,"Liceo Politecnico Pesquero
+Rama",6853,Obligatoria,578.1
+2025,"Escuela Alberto Cordova Latorre
+Rama",6916,Lenguaje,471.0
+2025,"Escuela Alberto Cordova Latorre
+Rama",6916,M1,362.0
+2025,"Escuela Alberto Cordova Latorre
+Rama",6916,M2,0.0
+2025,"Escuela Alberto Cordova Latorre
+Rama",6916,Historia,0.0
+2025,"Escuela Alberto Cordova Latorre
+Rama",6916,Ciencias,0.0
+2025,"Escuela Alberto Cordova Latorre
+Rama",6916,Obligatoria,416.5
+2025,"Centro Educativo Fernando Santivan
+Rama",7049,Lenguaje,451.6
+2025,"Centro Educativo Fernando Santivan
+Rama",7049,M1,466.8
+2025,"Centro Educativo Fernando Santivan
+Rama",7049,M2,300.7
+2025,"Centro Educativo Fernando Santivan
+Rama",7049,Historia,360.0
+2025,"Centro Educativo Fernando Santivan
+Rama",7049,Ciencias,387.0
+2025,"Centro Educativo Fernando Santivan
+Rama",7049,Obligatoria,465.4
+2026,"Escuela De Adultos De Rio Bueno
+Rama",11554,Lenguaje,477.0
+2026,"Escuela De Adultos De Rio Bueno
+Rama",11554,M1,508.0
+2026,"Escuela De Adultos De Rio Bueno
+Rama",11554,M2,0.0
+2026,"Escuela De Adultos De Rio Bueno
+Rama",11554,Historia,486.0
+2026,"Escuela De Adultos De Rio Bueno
+Rama",11554,Ciencias,402.0
+2026,"Escuela De Adultos De Rio Bueno
+Rama",11554,Obligatoria,492.5
+2026,"Instituto Tecnico Profesional Llifen
+Rama",11591,Lenguaje,573.1
+2026,"Instituto Tecnico Profesional Llifen
+Rama",11591,M1,543.4
+2026,"Instituto Tecnico Profesional Llifen
+Rama",11591,M2,388.0
+2026,"Instituto Tecnico Profesional Llifen
+Rama",11591,Historia,496.5
+2026,"Instituto Tecnico Profesional Llifen
+Rama",11591,Ciencias,380.0
+2026,"Instituto Tecnico Profesional Llifen
+Rama",11591,Obligatoria,558.3
+2026,"Instituto Tecnico Profesional Llifen
+Rama",11591,Lenguaje,487.8
+2026,"Instituto Tecnico Profesional Llifen
+Rama",11591,M1,493.5
+2026,"Instituto Tecnico Profesional Llifen
+Rama",11591,M2,399.3
+2026,"Instituto Tecnico Profesional Llifen
+Rama",11591,Historia,385.0
+2026,"Instituto Tecnico Profesional Llifen
+Rama",11591,Ciencias,370.0
+2026,"Instituto Tecnico Profesional Llifen
+Rama",11591,Obligatoria,492.1
+2026,"Instituto Tecnico Profesional Llifen
+Rama",11591,Lenguaje,513.0
+2026,"Instituto Tecnico Profesional Llifen
+Rama",11591,M1,521.1
+2026,"Instituto Tecnico Profesional Llifen
+Rama",11591,M2,389.1
+2026,"Instituto Tecnico Profesional Llifen
+Rama",11591,Historia,412.7
+2026,"Instituto Tecnico Profesional Llifen
+Rama",11591,Ciencias,388.2
+2026,"Instituto Tecnico Profesional Llifen
+Rama",11591,Obligatoria,519.2
 2026,"Colegio Bicentenario Helvecia
 Rama",12185,Lenguaje,600.9
 2026,"Colegio Bicentenario Helvecia
@@ -47,6 +209,54 @@ Rama",12185,Historia,417.0
 Rama",12185,Ciencias,392.3
 2026,"Colegio Bicentenario Helvecia
 Rama",12185,Obligatoria,481.3
+2026,"Liceo Bicentenario De Excelencia Tecnico Profesiona
+Rama",16843,Lenguaje,572.7
+2026,"Liceo Bicentenario De Excelencia Tecnico Profesiona
+Rama",16843,M1,598.5
+2026,"Liceo Bicentenario De Excelencia Tecnico Profesiona
+Rama",16843,M2,389.6
+2026,"Liceo Bicentenario De Excelencia Tecnico Profesiona
+Rama",16843,Historia,427.8
+2026,"Liceo Bicentenario De Excelencia Tecnico Profesiona
+Rama",16843,Ciencias,406.5
+2026,"Liceo Bicentenario De Excelencia Tecnico Profesiona
+Rama",16843,Obligatoria,587.3
+2026,"Liceo Bicentenario De Excelencia Tecnico Profesiona
+Rama",16843,Lenguaje,567.9
+2026,"Liceo Bicentenario De Excelencia Tecnico Profesiona
+Rama",16843,M1,590.4
+2026,"Liceo Bicentenario De Excelencia Tecnico Profesiona
+Rama",16843,M2,373.1
+2026,"Liceo Bicentenario De Excelencia Tecnico Profesiona
+Rama",16843,Historia,440.7
+2026,"Liceo Bicentenario De Excelencia Tecnico Profesiona
+Rama",16843,Ciencias,403.7
+2026,"Liceo Bicentenario De Excelencia Tecnico Profesiona
+Rama",16843,Obligatoria,581.7
+2026,"Liceo Tecnico Profesional People Help People Pullin
+Rama",16844,Lenguaje,532.2
+2026,"Liceo Tecnico Profesional People Help People Pullin
+Rama",16844,M1,575.7
+2026,"Liceo Tecnico Profesional People Help People Pullin
+Rama",16844,M2,376.8
+2026,"Liceo Tecnico Profesional People Help People Pullin
+Rama",16844,Historia,421.1
+2026,"Liceo Tecnico Profesional People Help People Pullin
+Rama",16844,Ciencias,402.9
+2026,"Liceo Tecnico Profesional People Help People Pullin
+Rama",16844,Obligatoria,554.4
+2026,"Liceo Tecnico Profesional People Help People Pullin
+Rama",16844,Lenguaje,510.0
+2026,"Liceo Tecnico Profesional People Help People Pullin
+Rama",16844,M1,525.7
+2026,"Liceo Tecnico Profesional People Help People Pullin
+Rama",16844,M2,404.6
+2026,"Liceo Tecnico Profesional People Help People Pullin
+Rama",16844,Historia,455.0
+2026,"Liceo Tecnico Profesional People Help People Pullin
+Rama",16844,Ciencias,405.3
+2026,"Liceo Tecnico Profesional People Help People Pullin
+Rama",16844,Obligatoria,517.8
 2026,"Colegio Baquedano
 Rama",22014,Lenguaje,582.8
 2026,"Colegio Baquedano
@@ -59,6 +269,36 @@ Rama",22014,Historia,507.3
 Rama",22014,Ciencias,441.9
 2026,"Colegio Baquedano
 Rama",22014,Obligatoria,590.3
+2026,Liceo Tecnico Profesional Radio,22024,Lenguaje,710.0
+2026,Liceo Tecnico Profesional Radio,22024,M1,699.0
+2026,Liceo Tecnico Profesional Radio,22024,M2,0.0
+2026,Liceo Tecnico Profesional Radio,22024,Historia,493.0
+2026,Liceo Tecnico Profesional Radio,22024,Ciencias,0.0
+2026,Liceo Tecnico Profesional Radio,22024,Obligatoria,704.5
+2026,Liceo Tecnico Profesional Radio,22024,Lenguaje,485.7
+2026,Liceo Tecnico Profesional Radio,22024,M1,504.3
+2026,Liceo Tecnico Profesional Radio,22024,M2,349.0
+2026,Liceo Tecnico Profesional Radio,22024,Historia,432.5
+2026,Liceo Tecnico Profesional Radio,22024,Ciencias,388.3
+2026,Liceo Tecnico Profesional Radio,22024,Obligatoria,495.0
+2026,Liceo Tecnico Profesional Radio,22024,Lenguaje,472.0
+2026,Liceo Tecnico Profesional Radio,22024,M1,475.7
+2026,Liceo Tecnico Profesional Radio,22024,M2,0.0
+2026,Liceo Tecnico Profesional Radio,22024,Historia,406.0
+2026,Liceo Tecnico Profesional Radio,22024,Ciencias,401.0
+2026,Liceo Tecnico Profesional Radio,22024,Obligatoria,473.8
+2026,"Liceo Bicentenario Ingeniero Ricardo Fenner Ruedi
+Rama",22140,Lenguaje,547.7
+2026,"Liceo Bicentenario Ingeniero Ricardo Fenner Ruedi
+Rama",22140,M1,585.4
+2026,"Liceo Bicentenario Ingeniero Ricardo Fenner Ruedi
+Rama",22140,M2,374.9
+2026,"Liceo Bicentenario Ingeniero Ricardo Fenner Ruedi
+Rama",22140,Historia,434.3
+2026,"Liceo Bicentenario Ingeniero Ricardo Fenner Ruedi
+Rama",22140,Ciencias,413.3
+2026,"Liceo Bicentenario Ingeniero Ricardo Fenner Ruedi
+Rama",22140,Obligatoria,567.3
 2026,"Martin Luther King College
 Rama",22160,Lenguaje,575.0
 2026,"Martin Luther King College
@@ -95,6 +335,18 @@ Rama",22188,Historia,432.8
 Rama",22188,Ciencias,426.0
 2026,"Centro Educacion Adultos Andres Bello
 Rama",22188,Obligatoria,494.4
+2026,"Colegio Pufudi
+Rama",22218,Lenguaje,573.7
+2026,"Colegio Pufudi
+Rama",22218,M1,577.6
+2026,"Colegio Pufudi
+Rama",22218,M2,391.5
+2026,"Colegio Pufudi
+Rama",22218,Historia,432.4
+2026,"Colegio Pufudi
+Rama",22218,Ciencias,440.8
+2026,"Colegio Pufudi
+Rama",22218,Obligatoria,575.7
 2026,"Colegio Domus Mater
 Rama",22231,Lenguaje,697.1
 2026,"Colegio Domus Mater
@@ -107,6 +359,30 @@ Rama",22231,Historia,623.3
 Rama",22231,Ciencias,523.9
 2026,"Colegio Domus Mater
 Rama",22231,Obligatoria,715.8
+2026,"Colegio San Antonio
+Rama",22317,Lenguaje,560.2
+2026,"Colegio San Antonio
+Rama",22317,M1,579.6
+2026,"Colegio San Antonio
+Rama",22317,M2,389.2
+2026,"Colegio San Antonio
+Rama",22317,Historia,481.1
+2026,"Colegio San Antonio
+Rama",22317,Ciencias,420.5
+2026,"Colegio San Antonio
+Rama",22317,Obligatoria,569.9
+2026,"Colegio San Antonio
+Rama",22317,Lenguaje,506.0
+2026,"Colegio San Antonio
+Rama",22317,M1,491.1
+2026,"Colegio San Antonio
+Rama",22317,M2,337.0
+2026,"Colegio San Antonio
+Rama",22317,Historia,441.6
+2026,"Colegio San Antonio
+Rama",22317,Ciencias,383.1
+2026,"Colegio San Antonio
+Rama",22317,Obligatoria,501.4
 2026,"Instituto Inmaculada Concepcion
 Rama",22351,Lenguaje,690.9
 2026,"Instituto Inmaculada Concepcion
@@ -179,6 +455,12 @@ Rama",22398,Obligatoria,627.5
 2026,Inst,22415,Historia,500.0
 2026,Inst,22415,Ciencias,0.0
 2026,Inst,22415,Obligatoria,539.0
+2026,Cent,22446,Lenguaje,492.0
+2026,Cent,22446,M1,437.5
+2026,Cent,22446,M2,0.0
+2026,Cent,22446,Historia,470.0
+2026,Cent,22446,Ciencias,0.0
+2026,Cent,22446,Obligatoria,464.8
 2026,"Colegio Laico Valdivia
 Rama",22459,Lenguaje,638.4
 2026,"Colegio Laico Valdivia
@@ -191,6 +473,66 @@ Rama",22459,Historia,549.1
 Rama",22459,Ciencias,431.4
 2026,"Colegio Laico Valdivia
 Rama",22459,Obligatoria,637.1
+2026,"Colegio Bernardo Felmer Niklitschek
+Rama",22462,Lenguaje,582.4
+2026,"Colegio Bernardo Felmer Niklitschek
+Rama",22462,M1,600.5
+2026,"Colegio Bernardo Felmer Niklitschek
+Rama",22462,M2,431.8
+2026,"Colegio Bernardo Felmer Niklitschek
+Rama",22462,Historia,454.6
+2026,"Colegio Bernardo Felmer Niklitschek
+Rama",22462,Ciencias,441.6
+2026,"Colegio Bernardo Felmer Niklitschek
+Rama",22462,Obligatoria,595.7
+2026,"Colegio Bernardo Felmer Niklitschek
+Rama",22462,Lenguaje,492.0
+2026,"Colegio Bernardo Felmer Niklitschek
+Rama",22462,M1,507.3
+2026,"Colegio Bernardo Felmer Niklitschek
+Rama",22462,M2,386.0
+2026,"Colegio Bernardo Felmer Niklitschek
+Rama",22462,Historia,414.9
+2026,"Colegio Bernardo Felmer Niklitschek
+Rama",22462,Ciencias,390.0
+2026,"Colegio Bernardo Felmer Niklitschek
+Rama",22462,Obligatoria,501.3
+2026,"Colegio Bernardo Felmer Niklitschek
+Rama",22462,Lenguaje,467.3
+2026,"Colegio Bernardo Felmer Niklitschek
+Rama",22462,M1,497.8
+2026,"Colegio Bernardo Felmer Niklitschek
+Rama",22462,M2,389.8
+2026,"Colegio Bernardo Felmer Niklitschek
+Rama",22462,Historia,401.7
+2026,"Colegio Bernardo Felmer Niklitschek
+Rama",22462,Ciencias,377.4
+2026,"Colegio Bernardo Felmer Niklitschek
+Rama",22462,Obligatoria,488.4
+2026,"Colegio San Jose
+Rama",22476,Lenguaje,789.5
+2026,"Colegio San Jose
+Rama",22476,M1,690.5
+2026,"Colegio San Jose
+Rama",22476,M2,366.0
+2026,"Colegio San Jose
+Rama",22476,Historia,593.0
+2026,"Colegio San Jose
+Rama",22476,Ciencias,591.5
+2026,"Colegio San Jose
+Rama",22476,Obligatoria,740.0
+2026,"Liceo Bicentenario De Excelencia Altamira
+Rama",22483,Lenguaje,619.5
+2026,"Liceo Bicentenario De Excelencia Altamira
+Rama",22483,M1,644.2
+2026,"Liceo Bicentenario De Excelencia Altamira
+Rama",22483,M2,398.3
+2026,"Liceo Bicentenario De Excelencia Altamira
+Rama",22483,Historia,513.8
+2026,"Liceo Bicentenario De Excelencia Altamira
+Rama",22483,Ciencias,466.7
+2026,"Liceo Bicentenario De Excelencia Altamira
+Rama",22483,Obligatoria,632.6
 2026,"Centro Educacional San Nicolas
 Rama",22496,Lenguaje,568.4
 2026,"Centro Educacional San Nicolas
@@ -215,6 +557,30 @@ Rama",22496,Historia,0.0
 Rama",22496,Ciencias,330.0
 2026,"Centro Educacional San Nicolas
 Rama",22496,Obligatoria,446.0
+2026,"Colegio Aguilas Del Sur
+Rama",22503,Lenguaje,443.5
+2026,"Colegio Aguilas Del Sur
+Rama",22503,M1,420.0
+2026,"Colegio Aguilas Del Sur
+Rama",22503,M2,409.0
+2026,"Colegio Aguilas Del Sur
+Rama",22503,Historia,418.0
+2026,"Colegio Aguilas Del Sur
+Rama",22503,Ciencias,373.0
+2026,"Colegio Aguilas Del Sur
+Rama",22503,Obligatoria,431.8
+2026,"Centro Integral De Adultos Treucanche
+Rama",22514,Lenguaje,477.0
+2026,"Centro Integral De Adultos Treucanche
+Rama",22514,M1,579.0
+2026,"Centro Integral De Adultos Treucanche
+Rama",22514,M2,0.0
+2026,"Centro Integral De Adultos Treucanche
+Rama",22514,Historia,0.0
+2026,"Centro Integral De Adultos Treucanche
+Rama",22514,Ciencias,0.0
+2026,"Centro Integral De Adultos Treucanche
+Rama",22514,Obligatoria,528.0
 2026,"Instituto Cristiano Gracia Y Paz
 Rama",22516,Lenguaje,599.3
 2026,"Instituto Cristiano Gracia Y Paz
@@ -239,6 +605,18 @@ Rama",22540,Historia,492.4
 Rama",22540,Ciencias,423.6
 2026,"Instituto Italia De Valdivia
 Rama",22540,Obligatoria,603.0
+2026,"Centro De Educación Integral De Adultos Nuevo Horiz
+Rama",22549,Lenguaje,590.0
+2026,"Centro De Educación Integral De Adultos Nuevo Horiz
+Rama",22549,M1,538.5
+2026,"Centro De Educación Integral De Adultos Nuevo Horiz
+Rama",22549,M2,366.0
+2026,"Centro De Educación Integral De Adultos Nuevo Horiz
+Rama",22549,Historia,387.0
+2026,"Centro De Educación Integral De Adultos Nuevo Horiz
+Rama",22549,Ciencias,420.0
+2026,"Centro De Educación Integral De Adultos Nuevo Horiz
+Rama",22549,Obligatoria,610.5
 2026,"Hampton College
 Rama",22627,Lenguaje,635.8
 2026,"Hampton College
@@ -287,6 +665,102 @@ Rama",22634,Historia,501.5
 Rama",22634,Ciencias,448.1
 2026,"Instituto Principe De Asturias
 Rama",22634,Obligatoria,612.7
+2026,"Garden College
+Rama",22743,Lenguaje,516.8
+2026,"Garden College
+Rama",22743,M1,504.5
+2026,"Garden College
+Rama",22743,M2,310.0
+2026,"Garden College
+Rama",22743,Historia,465.8
+2026,"Garden College
+Rama",22743,Ciencias,382.0
+2026,"Garden College
+Rama",22743,Obligatoria,510.6
+2026,"Liceo Bicentenario De Excelencia Agricola Tecnologi
+Rama",22752,Lenguaje,545.0
+2026,"Liceo Bicentenario De Excelencia Agricola Tecnologi
+Rama",22752,M1,570.8
+2026,"Liceo Bicentenario De Excelencia Agricola Tecnologi
+Rama",22752,M2,364.8
+2026,"Liceo Bicentenario De Excelencia Agricola Tecnologi
+Rama",22752,Historia,429.9
+2026,"Liceo Bicentenario De Excelencia Agricola Tecnologi
+Rama",22752,Ciencias,404.3
+2026,"Liceo Bicentenario De Excelencia Agricola Tecnologi
+Rama",22752,Obligatoria,563.3
+2026,"Liceo Bicentenario De Excelencia Agricola Tecnologi
+Rama",22752,Lenguaje,515.1
+2026,"Liceo Bicentenario De Excelencia Agricola Tecnologi
+Rama",22752,M1,535.5
+2026,"Liceo Bicentenario De Excelencia Agricola Tecnologi
+Rama",22752,M2,377.3
+2026,"Liceo Bicentenario De Excelencia Agricola Tecnologi
+Rama",22752,Historia,414.9
+2026,"Liceo Bicentenario De Excelencia Agricola Tecnologi
+Rama",22752,Ciencias,390.6
+2026,"Liceo Bicentenario De Excelencia Agricola Tecnologi
+Rama",22752,Obligatoria,525.7
+2026,"Liceo Tecnico Profesional De Rio Bueno
+Rama",22755,Lenguaje,511.5
+2026,"Liceo Tecnico Profesional De Rio Bueno
+Rama",22755,M1,499.0
+2026,"Liceo Tecnico Profesional De Rio Bueno
+Rama",22755,M2,392.3
+2026,"Liceo Tecnico Profesional De Rio Bueno
+Rama",22755,Historia,434.3
+2026,"Liceo Tecnico Profesional De Rio Bueno
+Rama",22755,Ciencias,384.9
+2026,"Liceo Tecnico Profesional De Rio Bueno
+Rama",22755,Obligatoria,506.1
+2026,"Liceo Tecnico Profesional De Rio Bueno
+Rama",22755,Lenguaje,482.6
+2026,"Liceo Tecnico Profesional De Rio Bueno
+Rama",22755,M1,517.6
+2026,"Liceo Tecnico Profesional De Rio Bueno
+Rama",22755,M2,378.3
+2026,"Liceo Tecnico Profesional De Rio Bueno
+Rama",22755,Historia,394.4
+2026,"Liceo Tecnico Profesional De Rio Bueno
+Rama",22755,Ciencias,394.3
+2026,"Liceo Tecnico Profesional De Rio Bueno
+Rama",22755,Obligatoria,495.6
+2026,"Liceo Tecnico Profesional De Rio Bueno
+Rama",22755,Lenguaje,460.3
+2026,"Liceo Tecnico Profesional De Rio Bueno
+Rama",22755,M1,467.0
+2026,"Liceo Tecnico Profesional De Rio Bueno
+Rama",22755,M2,372.3
+2026,"Liceo Tecnico Profesional De Rio Bueno
+Rama",22755,Historia,447.5
+2026,"Liceo Tecnico Profesional De Rio Bueno
+Rama",22755,Ciencias,387.4
+2026,"Liceo Tecnico Profesional De Rio Bueno
+Rama",22755,Obligatoria,463.7
+2026,"Liceo Tecnico Profesional De Rio Bueno
+Rama",22755,Lenguaje,492.3
+2026,"Liceo Tecnico Profesional De Rio Bueno
+Rama",22755,M1,486.7
+2026,"Liceo Tecnico Profesional De Rio Bueno
+Rama",22755,M2,379.5
+2026,"Liceo Tecnico Profesional De Rio Bueno
+Rama",22755,Historia,500.0
+2026,"Liceo Tecnico Profesional De Rio Bueno
+Rama",22755,Ciencias,376.0
+2026,"Liceo Tecnico Profesional De Rio Bueno
+Rama",22755,Obligatoria,489.5
+2026,"Liceo Bicentenario Complejo Educacional Ignao
+Rama",22758,Lenguaje,483.7
+2026,"Liceo Bicentenario Complejo Educacional Ignao
+Rama",22758,M1,499.5
+2026,"Liceo Bicentenario Complejo Educacional Ignao
+Rama",22758,M2,366.6
+2026,"Liceo Bicentenario Complejo Educacional Ignao
+Rama",22758,Historia,411.8
+2026,"Liceo Bicentenario Complejo Educacional Ignao
+Rama",22758,Ciencias,372.5
+2026,"Liceo Bicentenario Complejo Educacional Ignao
+Rama",22758,Obligatoria,491.6
 2026,"Master College
 Rama",22759,Lenguaje,599.9
 2026,"Master College
@@ -299,6 +773,24 @@ Rama",22759,Historia,487.6
 Rama",22759,Ciencias,488.1
 2026,"Master College
 Rama",22759,Obligatoria,620.3
+2026,"Liceo Mater Populi Dei
+Rama",31002,Lenguaje,534.2
+2026,"Liceo Mater Populi Dei
+Rama",31002,M1,580.0
+2026,"Liceo Mater Populi Dei
+Rama",31002,M2,430.4
+2026,"Liceo Mater Populi Dei
+Rama",31002,Historia,460.5
+2026,"Liceo Mater Populi Dei
+Rama",31002,Ciencias,428.0
+2026,"Liceo Mater Populi Dei
+Rama",31002,Obligatoria,551.7
+2026,Col,31005,Lenguaje,504.9
+2026,Col,31005,M1,549.4
+2026,Col,31005,M2,366.0
+2026,Col,31005,Historia,429.2
+2026,Col,31005,Ciencias,415.3
+2026,Col,31005,Obligatoria,527.1
 2026,"Liceo Bicentenario Ciudad De Los Rios Valdivi
 Rama",31010,Lenguaje,626.1
 2026,"Liceo Bicentenario Ciudad De Los Rios Valdivi
@@ -323,6 +815,42 @@ Rama",31012,Historia,458.2
 Rama",31012,Ciencias,412.0
 2026,"Instituto Bicentenario De Excelencia Chile Asia Pac
 Rama",31012,Obligatoria,547.3
+2026,"Liceo Tecnologico Coñaripe
+Rama",40102,Lenguaje,457.0
+2026,"Liceo Tecnologico Coñaripe
+Rama",40102,M1,571.5
+2026,"Liceo Tecnologico Coñaripe
+Rama",40102,M2,396.0
+2026,"Liceo Tecnologico Coñaripe
+Rama",40102,Historia,402.0
+2026,"Liceo Tecnologico Coñaripe
+Rama",40102,Ciencias,410.0
+2026,"Liceo Tecnologico Coñaripe
+Rama",40102,Obligatoria,511.7
+2026,"Liceo Tecnologico Coñaripe
+Rama",40102,Lenguaje,480.9
+2026,"Liceo Tecnologico Coñaripe
+Rama",40102,M1,523.3
+2026,"Liceo Tecnologico Coñaripe
+Rama",40102,M2,445.5
+2026,"Liceo Tecnologico Coñaripe
+Rama",40102,Historia,429.4
+2026,"Liceo Tecnologico Coñaripe
+Rama",40102,Ciencias,456.5
+2026,"Liceo Tecnologico Coñaripe
+Rama",40102,Obligatoria,512.1
+2026,"Centro Educacional Integrado De Adultos Latinoameri
+Rama",41533,Lenguaje,500.0
+2026,"Centro Educacional Integrado De Adultos Latinoameri
+Rama",41533,M1,474.0
+2026,"Centro Educacional Integrado De Adultos Latinoameri
+Rama",41533,M2,0.0
+2026,"Centro Educacional Integrado De Adultos Latinoameri
+Rama",41533,Historia,348.0
+2026,"Centro Educacional Integrado De Adultos Latinoameri
+Rama",41533,Ciencias,0.0
+2026,"Centro Educacional Integrado De Adultos Latinoameri
+Rama",41533,Obligatoria,487.0
 2026,"Colegio Comunitario Enlace
 Rama",41712,Lenguaje,373.0
 2026,"Colegio Comunitario Enlace
@@ -593,3 +1121,657 @@ Rama",6844,Historia,578.4
 Rama",6844,Ciencias,612.2
 2026,"Instituto Aleman Carlos Anwandter
 Rama",6844,Obligatoria,770.2
+2026,"Liceo San Luis De Alba
+Rama",6846,Lenguaje,603.8
+2026,"Liceo San Luis De Alba
+Rama",6846,M1,568.9
+2026,"Liceo San Luis De Alba
+Rama",6846,M2,359.0
+2026,"Liceo San Luis De Alba
+Rama",6846,Historia,452.7
+2026,"Liceo San Luis De Alba
+Rama",6846,Ciencias,427.1
+2026,"Liceo San Luis De Alba
+Rama",6846,Obligatoria,586.4
+2026,"Liceo San Luis De Alba
+Rama",6846,Lenguaje,466.8
+2026,"Liceo San Luis De Alba
+Rama",6846,M1,479.3
+2026,"Liceo San Luis De Alba
+Rama",6846,M2,350.0
+2026,"Liceo San Luis De Alba
+Rama",6846,Historia,408.7
+2026,"Liceo San Luis De Alba
+Rama",6846,Ciencias,378.9
+2026,"Liceo San Luis De Alba
+Rama",6846,Obligatoria,473.8
+2026,"Liceo San Luis De Alba
+Rama",6846,Lenguaje,452.5
+2026,"Liceo San Luis De Alba
+Rama",6846,M1,486.3
+2026,"Liceo San Luis De Alba
+Rama",6846,M2,366.0
+2026,"Liceo San Luis De Alba
+Rama",6846,Historia,360.0
+2026,"Liceo San Luis De Alba
+Rama",6846,Ciencias,0.0
+2026,"Liceo San Luis De Alba
+Rama",6846,Obligatoria,483.3
+2026,"Liceo San Luis De Alba
+Rama",6846,Lenguaje,650.0
+2026,"Liceo San Luis De Alba
+Rama",6846,M1,595.0
+2026,"Liceo San Luis De Alba
+Rama",6846,M2,423.0
+2026,"Liceo San Luis De Alba
+Rama",6846,Historia,0.0
+2026,"Liceo San Luis De Alba
+Rama",6846,Ciencias,402.0
+2026,"Liceo San Luis De Alba
+Rama",6846,Obligatoria,622.5
+2026,"Liceo Politecnico Pesquero
+Rama",6853,Lenguaje,421.0
+2026,"Liceo Politecnico Pesquero
+Rama",6853,M1,513.5
+2026,"Liceo Politecnico Pesquero
+Rama",6853,M2,349.0
+2026,"Liceo Politecnico Pesquero
+Rama",6853,Historia,476.0
+2026,"Liceo Politecnico Pesquero
+Rama",6853,Ciencias,360.5
+2026,"Liceo Politecnico Pesquero
+Rama",6853,Obligatoria,467.3
+2026,"Liceo Bicentenario Santa Cruz
+Rama",6895,Lenguaje,565.9
+2026,"Liceo Bicentenario Santa Cruz
+Rama",6895,M1,558.9
+2026,"Liceo Bicentenario Santa Cruz
+Rama",6895,M2,395.8
+2026,"Liceo Bicentenario Santa Cruz
+Rama",6895,Historia,482.3
+2026,"Liceo Bicentenario Santa Cruz
+Rama",6895,Ciencias,416.9
+2026,"Liceo Bicentenario Santa Cruz
+Rama",6895,Obligatoria,563.0
+2026,"Seminario San Fidel
+Rama",6896,Lenguaje,626.8
+2026,"Seminario San Fidel
+Rama",6896,M1,639.6
+2026,"Seminario San Fidel
+Rama",6896,M2,444.3
+2026,"Seminario San Fidel
+Rama",6896,Historia,542.5
+2026,"Seminario San Fidel
+Rama",6896,Ciencias,465.5
+2026,"Seminario San Fidel
+Rama",6896,Obligatoria,633.5
+2026,"Liceo Bicentenario De Excelencia Camilo Henriquez G
+Rama",6897,Lenguaje,574.1
+2026,"Liceo Bicentenario De Excelencia Camilo Henriquez G
+Rama",6897,M1,593.3
+2026,"Liceo Bicentenario De Excelencia Camilo Henriquez G
+Rama",6897,M2,392.2
+2026,"Liceo Bicentenario De Excelencia Camilo Henriquez G
+Rama",6897,Historia,460.5
+2026,"Liceo Bicentenario De Excelencia Camilo Henriquez G
+Rama",6897,Ciencias,426.2
+2026,"Liceo Bicentenario De Excelencia Camilo Henriquez G
+Rama",6897,Obligatoria,587.4
+2026,"Liceo Bicentenario De Excelencia Camilo Henriquez G
+Rama",6897,Lenguaje,517.7
+2026,"Liceo Bicentenario De Excelencia Camilo Henriquez G
+Rama",6897,M1,554.0
+2026,"Liceo Bicentenario De Excelencia Camilo Henriquez G
+Rama",6897,M2,374.0
+2026,"Liceo Bicentenario De Excelencia Camilo Henriquez G
+Rama",6897,Historia,449.3
+2026,"Liceo Bicentenario De Excelencia Camilo Henriquez G
+Rama",6897,Ciencias,388.8
+2026,"Liceo Bicentenario De Excelencia Camilo Henriquez G
+Rama",6897,Obligatoria,537.9
+2026,"Liceo Bicentenario De Excelencia Camilo Henriquez G
+Rama",6897,Lenguaje,500.1
+2026,"Liceo Bicentenario De Excelencia Camilo Henriquez G
+Rama",6897,M1,547.6
+2026,"Liceo Bicentenario De Excelencia Camilo Henriquez G
+Rama",6897,M2,390.0
+2026,"Liceo Bicentenario De Excelencia Camilo Henriquez G
+Rama",6897,Historia,390.6
+2026,"Liceo Bicentenario De Excelencia Camilo Henriquez G
+Rama",6897,Ciencias,377.6
+2026,"Liceo Bicentenario De Excelencia Camilo Henriquez G
+Rama",6897,Obligatoria,532.5
+2026,"Liceo Bicentenario De Excelencia Camilo Henriquez G
+Rama",6897,Lenguaje,489.4
+2026,"Liceo Bicentenario De Excelencia Camilo Henriquez G
+Rama",6897,M1,475.1
+2026,"Liceo Bicentenario De Excelencia Camilo Henriquez G
+Rama",6897,M2,413.7
+2026,"Liceo Bicentenario De Excelencia Camilo Henriquez G
+Rama",6897,Historia,427.0
+2026,"Liceo Bicentenario De Excelencia Camilo Henriquez G
+Rama",6897,Ciencias,383.2
+2026,"Liceo Bicentenario De Excelencia Camilo Henriquez G
+Rama",6897,Obligatoria,482.3
+2026,"Liceo Republica Del Brasil
+Rama",6899,Lenguaje,552.7
+2026,"Liceo Republica Del Brasil
+Rama",6899,M1,583.9
+2026,"Liceo Republica Del Brasil
+Rama",6899,M2,386.6
+2026,"Liceo Republica Del Brasil
+Rama",6899,Historia,497.2
+2026,"Liceo Republica Del Brasil
+Rama",6899,Ciencias,406.3
+2026,"Liceo Republica Del Brasil
+Rama",6899,Obligatoria,568.3
+2026,"Liceo Padre Alcuino
+Rama",6922,Lenguaje,515.5
+2026,"Liceo Padre Alcuino
+Rama",6922,M1,552.9
+2026,"Liceo Padre Alcuino
+Rama",6922,M2,384.9
+2026,"Liceo Padre Alcuino
+Rama",6922,Historia,439.1
+2026,"Liceo Padre Alcuino
+Rama",6922,Ciencias,419.4
+2026,"Liceo Padre Alcuino
+Rama",6922,Obligatoria,534.2
+2026,"Liceo Padre Alcuino
+Rama",6922,Lenguaje,569.0
+2026,"Liceo Padre Alcuino
+Rama",6922,M1,571.7
+2026,"Liceo Padre Alcuino
+Rama",6922,M2,393.5
+2026,"Liceo Padre Alcuino
+Rama",6922,Historia,415.7
+2026,"Liceo Padre Alcuino
+Rama",6922,Ciencias,398.5
+2026,"Liceo Padre Alcuino
+Rama",6922,Obligatoria,570.3
+2026,"Colegio Maria Reina
+Rama",6925,Lenguaje,453.8
+2026,"Colegio Maria Reina
+Rama",6925,M1,462.0
+2026,"Colegio Maria Reina
+Rama",6925,M2,349.0
+2026,"Colegio Maria Reina
+Rama",6925,Historia,377.0
+2026,"Colegio Maria Reina
+Rama",6925,Ciencias,394.0
+2026,"Colegio Maria Reina
+Rama",6925,Obligatoria,457.9
+2026,"Liceo Bicentenario Alberto Blest Gana
+Rama",6929,Lenguaje,559.0
+2026,"Liceo Bicentenario Alberto Blest Gana
+Rama",6929,M1,554.6
+2026,"Liceo Bicentenario Alberto Blest Gana
+Rama",6929,M2,399.8
+2026,"Liceo Bicentenario Alberto Blest Gana
+Rama",6929,Historia,458.6
+2026,"Liceo Bicentenario Alberto Blest Gana
+Rama",6929,Ciencias,418.6
+2026,"Liceo Bicentenario Alberto Blest Gana
+Rama",6929,Obligatoria,558.1
+2026,"Liceo Bicentenario Alberto Blest Gana
+Rama",6929,Lenguaje,506.8
+2026,"Liceo Bicentenario Alberto Blest Gana
+Rama",6929,M1,573.1
+2026,"Liceo Bicentenario Alberto Blest Gana
+Rama",6929,M2,374.1
+2026,"Liceo Bicentenario Alberto Blest Gana
+Rama",6929,Historia,468.4
+2026,"Liceo Bicentenario Alberto Blest Gana
+Rama",6929,Ciencias,369.5
+2026,"Liceo Bicentenario Alberto Blest Gana
+Rama",6929,Obligatoria,545.4
+2026,"Colegio Jose Manuel Balmaceda Férnandez
+Rama",6983,Lenguaje,569.6
+2026,"Colegio Jose Manuel Balmaceda Férnandez
+Rama",6983,M1,566.0
+2026,"Colegio Jose Manuel Balmaceda Férnandez
+Rama",6983,M2,418.8
+2026,"Colegio Jose Manuel Balmaceda Férnandez
+Rama",6983,Historia,480.0
+2026,"Colegio Jose Manuel Balmaceda Férnandez
+Rama",6983,Ciencias,408.5
+2026,"Colegio Jose Manuel Balmaceda Férnandez
+Rama",6983,Obligatoria,566.5
+2026,"Colegio Maria Deogracia
+Rama",7004,Lenguaje,564.7
+2026,"Colegio Maria Deogracia
+Rama",7004,M1,559.8
+2026,"Colegio Maria Deogracia
+Rama",7004,M2,391.7
+2026,"Colegio Maria Deogracia
+Rama",7004,Historia,484.9
+2026,"Colegio Maria Deogracia
+Rama",7004,Ciencias,409.4
+2026,"Colegio Maria Deogracia
+Rama",7004,Obligatoria,562.2
+2026,"Liceo San Conrado De Futrono
+Rama",7006,Lenguaje,586.6
+2026,"Liceo San Conrado De Futrono
+Rama",7006,M1,584.2
+2026,"Liceo San Conrado De Futrono
+Rama",7006,M2,410.9
+2026,"Liceo San Conrado De Futrono
+Rama",7006,Historia,488.2
+2026,"Liceo San Conrado De Futrono
+Rama",7006,Ciencias,426.7
+2026,"Liceo San Conrado De Futrono
+Rama",7006,Obligatoria,587.3
+2026,"Liceo San Conrado De Futrono
+Rama",7006,Lenguaje,525.3
+2026,"Liceo San Conrado De Futrono
+Rama",7006,M1,548.2
+2026,"Liceo San Conrado De Futrono
+Rama",7006,M2,390.3
+2026,"Liceo San Conrado De Futrono
+Rama",7006,Historia,414.9
+2026,"Liceo San Conrado De Futrono
+Rama",7006,Ciencias,374.4
+2026,"Liceo San Conrado De Futrono
+Rama",7006,Obligatoria,539.4
+2026,"Liceo San Conrado De Futrono
+Rama",7006,Lenguaje,478.6
+2026,"Liceo San Conrado De Futrono
+Rama",7006,M1,526.8
+2026,"Liceo San Conrado De Futrono
+Rama",7006,M2,357.5
+2026,"Liceo San Conrado De Futrono
+Rama",7006,Historia,458.5
+2026,"Liceo San Conrado De Futrono
+Rama",7006,Ciencias,369.8
+2026,"Liceo San Conrado De Futrono
+Rama",7006,Obligatoria,515.3
+2026,"Liceo Bicentenario De Excelencia Carlos Haverbeck R
+Rama",7015,Lenguaje,548.5
+2026,"Liceo Bicentenario De Excelencia Carlos Haverbeck R
+Rama",7015,M1,583.1
+2026,"Liceo Bicentenario De Excelencia Carlos Haverbeck R
+Rama",7015,M2,402.0
+2026,"Liceo Bicentenario De Excelencia Carlos Haverbeck R
+Rama",7015,Historia,430.1
+2026,"Liceo Bicentenario De Excelencia Carlos Haverbeck R
+Rama",7015,Ciencias,431.1
+2026,"Liceo Bicentenario De Excelencia Carlos Haverbeck R
+Rama",7015,Obligatoria,564.4
+2026,"Liceo Bicentenario De Excelencia Carlos Haverbeck R
+Rama",7015,Lenguaje,484.8
+2026,"Liceo Bicentenario De Excelencia Carlos Haverbeck R
+Rama",7015,M1,518.9
+2026,"Liceo Bicentenario De Excelencia Carlos Haverbeck R
+Rama",7015,M2,372.6
+2026,"Liceo Bicentenario De Excelencia Carlos Haverbeck R
+Rama",7015,Historia,389.0
+2026,"Liceo Bicentenario De Excelencia Carlos Haverbeck R
+Rama",7015,Ciencias,395.4
+2026,"Liceo Bicentenario De Excelencia Carlos Haverbeck R
+Rama",7015,Obligatoria,501.9
+2026,"Liceo Bicentenario Gabriela Mistral
+Rama",7031,Lenguaje,554.5
+2026,"Liceo Bicentenario Gabriela Mistral
+Rama",7031,M1,577.1
+2026,"Liceo Bicentenario Gabriela Mistral
+Rama",7031,M2,384.6
+2026,"Liceo Bicentenario Gabriela Mistral
+Rama",7031,Historia,505.5
+2026,"Liceo Bicentenario Gabriela Mistral
+Rama",7031,Ciencias,454.6
+2026,"Liceo Bicentenario Gabriela Mistral
+Rama",7031,Obligatoria,565.8
+2026,"Liceo Bicentenario Gabriela Mistral
+Rama",7031,Lenguaje,583.0
+2026,"Liceo Bicentenario Gabriela Mistral
+Rama",7031,M1,502.0
+2026,"Liceo Bicentenario Gabriela Mistral
+Rama",7031,M2,0.0
+2026,"Liceo Bicentenario Gabriela Mistral
+Rama",7031,Historia,331.0
+2026,"Liceo Bicentenario Gabriela Mistral
+Rama",7031,Ciencias,426.0
+2026,"Liceo Bicentenario Gabriela Mistral
+Rama",7031,Obligatoria,542.5
+2026,"Liceo Bicentenario Gabriela Mistral
+Rama",7031,Lenguaje,488.5
+2026,"Liceo Bicentenario Gabriela Mistral
+Rama",7031,M1,528.8
+2026,"Liceo Bicentenario Gabriela Mistral
+Rama",7031,M2,374.7
+2026,"Liceo Bicentenario Gabriela Mistral
+Rama",7031,Historia,394.2
+2026,"Liceo Bicentenario Gabriela Mistral
+Rama",7031,Ciencias,374.4
+2026,"Liceo Bicentenario Gabriela Mistral
+Rama",7031,Obligatoria,508.7
+2026,"Liceo Bicentenario Gabriela Mistral
+Rama",7031,Lenguaje,499.2
+2026,"Liceo Bicentenario Gabriela Mistral
+Rama",7031,M1,492.3
+2026,"Liceo Bicentenario Gabriela Mistral
+Rama",7031,M2,376.8
+2026,"Liceo Bicentenario Gabriela Mistral
+Rama",7031,Historia,381.2
+2026,"Liceo Bicentenario Gabriela Mistral
+Rama",7031,Ciencias,344.5
+2026,"Liceo Bicentenario Gabriela Mistral
+Rama",7031,Obligatoria,495.8
+2026,"Liceo Santo Cura De Ars
+Rama",7044,Lenguaje,588.1
+2026,"Liceo Santo Cura De Ars
+Rama",7044,M1,597.5
+2026,"Liceo Santo Cura De Ars
+Rama",7044,M2,370.3
+2026,"Liceo Santo Cura De Ars
+Rama",7044,Historia,465.9
+2026,"Liceo Santo Cura De Ars
+Rama",7044,Ciencias,432.2
+2026,"Liceo Santo Cura De Ars
+Rama",7044,Obligatoria,592.8
+2026,"Liceo Santo Cura De Ars
+Rama",7044,Lenguaje,569.5
+2026,"Liceo Santo Cura De Ars
+Rama",7044,M1,540.1
+2026,"Liceo Santo Cura De Ars
+Rama",7044,M2,409.5
+2026,"Liceo Santo Cura De Ars
+Rama",7044,Historia,423.0
+2026,"Liceo Santo Cura De Ars
+Rama",7044,Ciencias,393.8
+2026,"Liceo Santo Cura De Ars
+Rama",7044,Obligatoria,554.8
+2026,"Liceo Santo Cura De Ars
+Rama",7044,Lenguaje,527.2
+2026,"Liceo Santo Cura De Ars
+Rama",7044,M1,508.4
+2026,"Liceo Santo Cura De Ars
+Rama",7044,M2,384.3
+2026,"Liceo Santo Cura De Ars
+Rama",7044,Historia,397.0
+2026,"Liceo Santo Cura De Ars
+Rama",7044,Ciencias,398.1
+2026,"Liceo Santo Cura De Ars
+Rama",7044,Obligatoria,517.4
+2026,"Centro Educativo Fernando Santivan
+Rama",7049,Lenguaje,550.8
+2026,"Centro Educativo Fernando Santivan
+Rama",7049,M1,519.6
+2026,"Centro Educativo Fernando Santivan
+Rama",7049,M2,388.7
+2026,"Centro Educativo Fernando Santivan
+Rama",7049,Historia,447.2
+2026,"Centro Educativo Fernando Santivan
+Rama",7049,Ciencias,404.3
+2026,"Centro Educativo Fernando Santivan
+Rama",7049,Obligatoria,535.2
+2026,"Centro Educativo Fernando Santivan
+Rama",7049,Lenguaje,506.8
+2026,"Centro Educativo Fernando Santivan
+Rama",7049,M1,462.5
+2026,"Centro Educativo Fernando Santivan
+Rama",7049,M2,395.5
+2026,"Centro Educativo Fernando Santivan
+Rama",7049,Historia,392.3
+2026,"Centro Educativo Fernando Santivan
+Rama",7049,Ciencias,363.2
+2026,"Centro Educativo Fernando Santivan
+Rama",7049,Obligatoria,484.7
+2026,"Complejo Educacional Tierra De Esperanza
+Rama",7085,Lenguaje,544.0
+2026,"Complejo Educacional Tierra De Esperanza
+Rama",7085,M1,530.9
+2026,"Complejo Educacional Tierra De Esperanza
+Rama",7085,M2,369.3
+2026,"Complejo Educacional Tierra De Esperanza
+Rama",7085,Historia,407.0
+2026,"Complejo Educacional Tierra De Esperanza
+Rama",7085,Ciencias,362.8
+2026,"Complejo Educacional Tierra De Esperanza
+Rama",7085,Obligatoria,537.4
+2026,"Liceo Padre Sigisfredo
+Rama",7102,Lenguaje,547.7
+2026,"Liceo Padre Sigisfredo
+Rama",7102,M1,532.2
+2026,"Liceo Padre Sigisfredo
+Rama",7102,M2,381.8
+2026,"Liceo Padre Sigisfredo
+Rama",7102,Historia,444.2
+2026,"Liceo Padre Sigisfredo
+Rama",7102,Ciencias,394.8
+2026,"Liceo Padre Sigisfredo
+Rama",7102,Obligatoria,539.9
+2026,"Liceo Padre Sigisfredo
+Rama",7102,Lenguaje,528.0
+2026,"Liceo Padre Sigisfredo
+Rama",7102,M1,495.2
+2026,"Liceo Padre Sigisfredo
+Rama",7102,M2,370.6
+2026,"Liceo Padre Sigisfredo
+Rama",7102,Historia,426.7
+2026,"Liceo Padre Sigisfredo
+Rama",7102,Ciencias,380.0
+2026,"Liceo Padre Sigisfredo
+Rama",7102,Obligatoria,511.6
+2026,"Colegio De Cultura Y Difusion Artistica
+Rama",7128,Lenguaje,546.3
+2026,"Colegio De Cultura Y Difusion Artistica
+Rama",7128,M1,550.7
+2026,"Colegio De Cultura Y Difusion Artistica
+Rama",7128,M2,381.0
+2026,"Colegio De Cultura Y Difusion Artistica
+Rama",7128,Historia,482.5
+2026,"Colegio De Cultura Y Difusion Artistica
+Rama",7128,Ciencias,422.9
+2026,"Colegio De Cultura Y Difusion Artistica
+Rama",7128,Obligatoria,549.3
+2026,"Liceo Bicentenario Rector Abdon Andrade Coloma
+Rama",7129,Lenguaje,621.0
+2026,"Liceo Bicentenario Rector Abdon Andrade Coloma
+Rama",7129,M1,647.8
+2026,"Liceo Bicentenario Rector Abdon Andrade Coloma
+Rama",7129,M2,420.0
+2026,"Liceo Bicentenario Rector Abdon Andrade Coloma
+Rama",7129,Historia,489.3
+2026,"Liceo Bicentenario Rector Abdon Andrade Coloma
+Rama",7129,Ciencias,456.9
+2026,"Liceo Bicentenario Rector Abdon Andrade Coloma
+Rama",7129,Obligatoria,634.9
+2026,"Liceo Bicentenario Rector Abdon Andrade Coloma
+Rama",7129,Lenguaje,575.4
+2026,"Liceo Bicentenario Rector Abdon Andrade Coloma
+Rama",7129,M1,587.2
+2026,"Liceo Bicentenario Rector Abdon Andrade Coloma
+Rama",7129,M2,383.5
+2026,"Liceo Bicentenario Rector Abdon Andrade Coloma
+Rama",7129,Historia,440.7
+2026,"Liceo Bicentenario Rector Abdon Andrade Coloma
+Rama",7129,Ciencias,400.0
+2026,"Liceo Bicentenario Rector Abdon Andrade Coloma
+Rama",7129,Obligatoria,583.5
+2026,"Liceo Bicentenario Rector Abdon Andrade Coloma
+Rama",7129,Lenguaje,521.4
+2026,"Liceo Bicentenario Rector Abdon Andrade Coloma
+Rama",7129,M1,609.6
+2026,"Liceo Bicentenario Rector Abdon Andrade Coloma
+Rama",7129,M2,370.9
+2026,"Liceo Bicentenario Rector Abdon Andrade Coloma
+Rama",7129,Historia,399.0
+2026,"Liceo Bicentenario Rector Abdon Andrade Coloma
+Rama",7129,Ciencias,443.3
+2026,"Liceo Bicentenario Rector Abdon Andrade Coloma
+Rama",7129,Obligatoria,564.7
+2026,Colegio Tecnico Profesional N,7135,Lenguaje,514.7
+2026,Colegio Tecnico Profesional N,7135,M1,660.3
+2026,Colegio Tecnico Profesional N,7135,M2,347.0
+2026,Colegio Tecnico Profesional N,7135,Historia,348.0
+2026,Colegio Tecnico Profesional N,7135,Ciencias,378.7
+2026,Colegio Tecnico Profesional N,7135,Obligatoria,587.5
+2026,Colegio Tecnico Profesional N,7135,Lenguaje,515.6
+2026,Colegio Tecnico Profesional N,7135,M1,505.6
+2026,Colegio Tecnico Profesional N,7135,M2,360.0
+2026,Colegio Tecnico Profesional N,7135,Historia,405.0
+2026,Colegio Tecnico Profesional N,7135,Ciencias,377.4
+2026,Colegio Tecnico Profesional N,7135,Obligatoria,514.4
+2026,Colegio Aleman R,7180,Lenguaje,720.8
+2026,Colegio Aleman R,7180,M1,769.2
+2026,Colegio Aleman R,7180,M2,471.3
+2026,Colegio Aleman R,7180,Historia,654.3
+2026,Colegio Aleman R,7180,Ciencias,583.3
+2026,Colegio Aleman R,7180,Obligatoria,745.0
+2026,"Colegio Santa Marta
+Rama",7181,Lenguaje,638.1
+2026,"Colegio Santa Marta
+Rama",7181,M1,637.9
+2026,"Colegio Santa Marta
+Rama",7181,M2,418.8
+2026,"Colegio Santa Marta
+Rama",7181,Historia,531.9
+2026,"Colegio Santa Marta
+Rama",7181,Ciencias,454.0
+2026,"Colegio Santa Marta
+Rama",7181,Obligatoria,638.0
+2026,"Colegio Padre Damian
+Rama",7183,Lenguaje,577.0
+2026,"Colegio Padre Damian
+Rama",7183,M1,586.5
+2026,"Colegio Padre Damian
+Rama",7183,M2,383.8
+2026,"Colegio Padre Damian
+Rama",7183,Historia,511.3
+2026,"Colegio Padre Damian
+Rama",7183,Ciencias,434.6
+2026,"Colegio Padre Damian
+Rama",7183,Obligatoria,581.8
+2026,"Liceo Rodulfo Amando Philippi
+Rama",7200,Lenguaje,575.4
+2026,"Liceo Rodulfo Amando Philippi
+Rama",7200,M1,577.6
+2026,"Liceo Rodulfo Amando Philippi
+Rama",7200,M2,388.6
+2026,"Liceo Rodulfo Amando Philippi
+Rama",7200,Historia,470.8
+2026,"Liceo Rodulfo Amando Philippi
+Rama",7200,Ciencias,425.3
+2026,"Liceo Rodulfo Amando Philippi
+Rama",7200,Obligatoria,577.8
+2026,"Liceo Rodulfo Amando Philippi
+Rama",7200,Lenguaje,478.7
+2026,"Liceo Rodulfo Amando Philippi
+Rama",7200,M1,421.7
+2026,"Liceo Rodulfo Amando Philippi
+Rama",7200,M2,369.5
+2026,"Liceo Rodulfo Amando Philippi
+Rama",7200,Historia,459.0
+2026,"Liceo Rodulfo Amando Philippi
+Rama",7200,Ciencias,344.0
+2026,"Liceo Rodulfo Amando Philippi
+Rama",7200,Obligatoria,450.2
+2026,"Liceo Rodulfo Amando Philippi
+Rama",7200,Lenguaje,555.8
+2026,"Liceo Rodulfo Amando Philippi
+Rama",7200,M1,562.8
+2026,"Liceo Rodulfo Amando Philippi
+Rama",7200,M2,352.3
+2026,"Liceo Rodulfo Amando Philippi
+Rama",7200,Historia,457.8
+2026,"Liceo Rodulfo Amando Philippi
+Rama",7200,Ciencias,471.0
+2026,"Liceo Rodulfo Amando Philippi
+Rama",7200,Obligatoria,559.3
+2026,"Liceo Rodulfo Amando Philippi
+Rama",7200,Lenguaje,480.0
+2026,"Liceo Rodulfo Amando Philippi
+Rama",7200,M1,526.8
+2026,"Liceo Rodulfo Amando Philippi
+Rama",7200,M2,396.2
+2026,"Liceo Rodulfo Amando Philippi
+Rama",7200,Historia,391.8
+2026,"Liceo Rodulfo Amando Philippi
+Rama",7200,Ciencias,383.6
+2026,"Liceo Rodulfo Amando Philippi
+Rama",7200,Obligatoria,506.7
+2026,"Liceo Rodulfo Amando Philippi
+Rama",7200,Lenguaje,540.5
+2026,"Liceo Rodulfo Amando Philippi
+Rama",7200,M1,518.2
+2026,"Liceo Rodulfo Amando Philippi
+Rama",7200,M2,342.7
+2026,"Liceo Rodulfo Amando Philippi
+Rama",7200,Historia,516.0
+2026,"Liceo Rodulfo Amando Philippi
+Rama",7200,Ciencias,372.3
+2026,"Liceo Rodulfo Amando Philippi
+Rama",7200,Obligatoria,529.3
+2026,"Colegio Proyecto De Futuro
+Rama",7202,Lenguaje,573.8
+2026,"Colegio Proyecto De Futuro
+Rama",7202,M1,578.3
+2026,"Colegio Proyecto De Futuro
+Rama",7202,M2,389.3
+2026,"Colegio Proyecto De Futuro
+Rama",7202,Historia,458.6
+2026,"Colegio Proyecto De Futuro
+Rama",7202,Ciencias,455.7
+2026,"Colegio Proyecto De Futuro
+Rama",7202,Obligatoria,576.1
+2026,"Escuela Particular Alemana
+Rama",7231,Lenguaje,553.3
+2026,"Escuela Particular Alemana
+Rama",7231,M1,576.9
+2026,"Escuela Particular Alemana
+Rama",7231,M2,440.5
+2026,"Escuela Particular Alemana
+Rama",7231,Historia,497.6
+2026,"Escuela Particular Alemana
+Rama",7231,Ciencias,417.8
+2026,"Escuela Particular Alemana
+Rama",7231,Obligatoria,565.1
+2026,"Liceo Bicentenario Vicente Pérez Rosales
+Rama",7236,Lenguaje,591.1
+2026,"Liceo Bicentenario Vicente Pérez Rosales
+Rama",7236,M1,575.6
+2026,"Liceo Bicentenario Vicente Pérez Rosales
+Rama",7236,M2,377.5
+2026,"Liceo Bicentenario Vicente Pérez Rosales
+Rama",7236,Historia,482.3
+2026,"Liceo Bicentenario Vicente Pérez Rosales
+Rama",7236,Ciencias,430.3
+2026,"Liceo Bicentenario Vicente Pérez Rosales
+Rama",7236,Obligatoria,583.3
+2026,"Colegio Bicentenario Crucero Oscar Daniel
+Rama",7240,Lenguaje,510.0
+2026,"Colegio Bicentenario Crucero Oscar Daniel
+Rama",7240,M1,490.7
+2026,"Colegio Bicentenario Crucero Oscar Daniel
+Rama",7240,M2,360.6
+2026,"Colegio Bicentenario Crucero Oscar Daniel
+Rama",7240,Historia,465.3
+2026,"Colegio Bicentenario Crucero Oscar Daniel
+Rama",7240,Ciencias,402.8
+2026,"Colegio Bicentenario Crucero Oscar Daniel
+Rama",7240,Obligatoria,502.0
+2026,"Colegio Santa Cruz
+Rama",7276,Lenguaje,613.5
+2026,"Colegio Santa Cruz
+Rama",7276,M1,619.5
+2026,"Colegio Santa Cruz
+Rama",7276,M2,423.1
+2026,"Colegio Santa Cruz
+Rama",7276,Historia,472.0
+2026,"Colegio Santa Cruz
+Rama",7276,Ciencias,443.1
+2026,"Colegio Santa Cruz
+Rama",7276,Obligatoria,616.5
+2026,"Liceo Antonio Varas
+Rama",7299,Lenguaje,603.7
+2026,"Liceo Antonio Varas
+Rama",7299,M1,614.6
+2026,"Liceo Antonio Varas
+Rama",7299,M2,401.5
+2026,"Liceo Antonio Varas
+Rama",7299,Historia,505.1
+2026,"Liceo Antonio Varas
+Rama",7299,Ciencias,420.4
+2026,"Liceo Antonio Varas
+Rama",7299,Obligatoria,609.1
