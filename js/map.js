@@ -42,13 +42,21 @@ document.addEventListener("DOMContentLoaded", () => {
         { attribution: "&copy; CARTO" }
     );
 
+    const satelital = L.tileLayer(
+        "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
+        {
+            attribution: "Tiles &copy; Esri",
+            opacity: 0.8
+        }
+    );
+    
     L.control.layers(
-        { "Claro": positron, "Oscuro": dark },
+        { "Claro": positron, "Oscuro": dark, "Satelital": satelital },
         null,
         { position: "topright" }
     ).addTo(map);
 
-
+    
     // ================================
     // LEYENDA DINÁMICA
     // ================================
@@ -90,7 +98,56 @@ document.addEventListener("DOMContentLoaded", () => {
                     map.removeLayer(capaColegios);
                 }
 
-                capaColegios = L.geoJSON(data, {
+                // Crear grupo cluster
+                capaColegios = L.markerClusterGroup({
+                showCoverageOnHover: false,
+                spiderfyOnMaxZoom: true,
+
+                // 👇 Hace que el cluster dure más antes de separarse
+                disableClusteringAtZoom: 12,
+
+                // 👇 Aumenta el radio de agrupación
+                maxClusterRadius: 80,
+
+                iconCreateFunction: function (cluster) {
+
+                    const markers = cluster.getAllChildMarkers();
+
+                    // Calcular promedio del cluster según prueba activa
+                    let suma = 0;
+                    markers.forEach(marker => {
+                     suma += marker.feature.properties[pruebaActiva];
+                    });
+
+                    const promedioCluster = suma / markers.length;
+
+                 const color = colorPorPuntaje(promedioCluster);
+
+                    return L.divIcon({
+                        html: `
+                            <div style="
+                                background:${color};
+                                width:45px;
+                                height:45px;
+                                border-radius:50%;
+                             display:flex;
+                             align-items:center;
+                                justify-content:center;
+                                color:white;
+                                font-weight:bold;
+                                border:2px solid white;
+                         ">
+                                ${markers.length}
+                            </div>
+                        `,
+                        className: "",
+                        iconSize: [45, 45]
+        });
+    }
+});
+
+
+                const geojsonLayer = L.geoJSON(data, {
                     pointToLayer: (feature, latlng) => {
                         const valor = feature.properties[pruebaActiva];
 
@@ -164,7 +221,11 @@ document.addEventListener("DOMContentLoaded", () => {
                             });
                         });
                     }
-                }).addTo(map);
+                });
+
+                capaColegios.addLayer(geojsonLayer);
+                map.addLayer(capaColegios);
+
 
                 // actualizar leyenda y subtítulo
                 legend.remove();
