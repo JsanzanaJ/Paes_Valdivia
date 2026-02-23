@@ -166,7 +166,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         // POPUP (CLICK)
                         // ================================
                         layer.bindPopup(`
-                            <b>${feature.properties.establecimiento}</b><br>
+                            <b>${feature.properties.NOM_RBD}</b><br>
                             Lenguaje: ${feature.properties.Lenguaje}<br>
                             M1: ${feature.properties.M1}<br>
                             M2: ${feature.properties.M2}<br>
@@ -181,7 +181,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         layer.on("mouseover", () => {
                             const valor = feature.properties[pruebaActiva];
                             layer.bindTooltip(
-                                `<b>${feature.properties.establecimiento}</b><br>
+                                `<b>${feature.properties.NOM_RBD}</b><br>
                                  ${pruebaActiva}: <b>${valor}</b>`,
                                 { sticky: true, opacity: 0.95 }
                             ).openTooltip();
