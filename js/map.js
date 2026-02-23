@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const positron = L.tileLayer(
         "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
         { attribution: "&copy; CARTO" }
-    ).addTo(map);
+    );
 
     const dark = L.tileLayer(
         "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png",
@@ -48,10 +48,10 @@ document.addEventListener("DOMContentLoaded", () => {
             attribution: "Tiles &copy; Esri",
             opacity: 0.8
         }
-    );
+    ).addTo(map);
     
     L.control.layers(
-        { "Claro": positron, "Oscuro": dark, "Satelital": satelital },
+        {  "Satelital": satelital, "Claro": positron, "Oscuro": dark },
         null,
         { position: "topright" }
     ).addTo(map);
@@ -238,13 +238,22 @@ document.addEventListener("DOMContentLoaded", () => {
             // ================================
             // SELECTOR DE PRUEBAS
             // ================================
-            document
-                .getElementById("selector-prueba")
-                .addEventListener("change", (e) => {
-                    pruebaActiva = e.target.value;
-                    dibujarMapa();
-                });
+// ================================
+// SELECTOR DE PRUEBAS (BOTONES)
+// ================================
+document.querySelectorAll(".btn-prueba").forEach(btn => {
+    btn.addEventListener("click", () => {
 
+        document.querySelectorAll(".btn-prueba")
+            .forEach(b => b.classList.remove("active"));
+
+        btn.classList.add("active");
+
+        pruebaActiva = btn.dataset.prueba;
+
+        dibujarMapa();
+    });
+});
             console.log("✅ Mapa completo y funcional");
         })
         .catch(err => console.error("❌ Error cargando GeoJSON", err));

@@ -1,151 +1,19 @@
+/* ================================
+   RESET BÁSICO
+================================ */
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
-}
-
-h2 {
-    text-align: center;
-    margin: 10px;
+    font-family: system-ui, -apple-system, sans-serif;
 }
 
 #map {
-    height: 90vh;
+    height: 100vh;
     width: 100%;
 }
 
-#selector-prueba {
-    position: absolute;
-    top: 10px;
-    left: 50px;
-    z-index: 1000;
-    padding: 6px;
-    font-size: 14px;
-}
-#leyenda {
-    position: absolute;
-    bottom: 30px;
-    left: 20px;
-    z-index: 1000;
-    background: white;
-    padding: 10px;
-    font-size: 13px;
-    border-radius: 6px;
-    box-shadow: 0 0 8px rgba(0,0,0,0.3);
-}
-
-.leyenda-item {
-    display: flex;
-    align-items: center;
-    margin-bottom: 4px;
-}
-
-.leyenda-color {
-    width: 14px;
-    height: 14px;
-    margin-right: 6px;
-    border-radius: 50%;
-    border: 1px solid #333;
-}
-.leaflet-control.leyenda {
-    background: white;
-    padding: 10px;
-    font-size: 13px;
-    border-radius: 6px;
-    box-shadow: 0 0 8px rgba(0,0,0,0.3);
-    line-height: 18px;
-}
-
-.leyenda i {
-    width: 14px;
-    height: 14px;
-    float: left;
-    margin-right: 6px;
-    opacity: 0.9;
-    border-radius: 50%;
-}
-
-.leaflet-tooltip {
-    background: rgba(0,0,0,0.75);
-    color: white;
-    border: none;
-    box-shadow: none;
-    font-size: 12px;
-}
-
-
-.selector-prueba {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    z-index: 1000;
-    background: white;
-    padding: 6px 10px;
-    border-radius: 6px;
-    box-shadow: 0 0 6px rgba(0,0,0,0.3);
-    font-family: Arial, sans-serif;
-}
-
-.legend {
-    background: white;
-    padding: 8px 10px;
-    font-size: 12px;
-    color: #333;
-    line-height: 18px;
-    border-radius: 6px;
-    box-shadow: 0 0 8px rgba(0,0,0,0.2);
-}
-
-.legend i {
-    width: 14px;
-    height: 14px;
-    float: left;
-    margin-right: 6px;
-    opacity: 0.9;
-}
-
-.map-title {
-    background: white;
-    padding: 10px 14px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.25);
-    font-family: Arial, sans-serif;
-}
-
-.map-title h3 {
-    margin: 0;
-    font-size: 16px;
-    font-weight: 700;
-}
-
-.map-title span {
-    font-size: 12px;
-    color: #555;
-}
-.map-title {
-    position: absolute;
-    top: 10px;
-    left: 50%;
-    transform: translateX(-50%);
-    background: rgba(255, 255, 255, 0.9);
-    padding: 8px 16px;
-    border-radius: 10px;
-    text-align: center;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.3);
-    font-family: system-ui, sans-serif;
-    z-index: 1000;
-}
-
-.map-title h3 {
-    margin: 0;
-    font-size: 16px;
-    font-weight: 700;
-}
-
-.map-title span {
-    font-size: 13px;
-    color: #555;
-}
-
+/* ================================
+   TÍTULO SUPERIOR CENTRADO
+================================ */
 .map-title {
     position: absolute;
     top: 10px;
@@ -170,12 +38,16 @@ h2 {
     color: #444;
 }
 
+/* ================================
+   LEYENDA
+================================ */
 .info.legend {
     font-size: 14px;
     background: rgba(255,255,255,0.95);
     padding: 10px 14px;
     border-radius: 8px;
     line-height: 18px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.25);
 }
 
 .info.legend i {
@@ -184,4 +56,54 @@ h2 {
     float: left;
     margin-right: 8px;
     opacity: 0.9;
+    border-radius: 50%;
+}
+
+/* ================================
+   TOOLTIP
+================================ */
+.leaflet-tooltip {
+    background: rgba(0,0,0,0.75);
+    color: white;
+    border: none;
+    box-shadow: none;
+    font-size: 12px;
+}
+
+/* ================================
+   BOTONES DE PRUEBA (ABAJO CENTRADOS)
+================================ */
+.selector-botones {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;
+
+    display: flex;
+    gap: 8px;
+
+    background: rgba(255,255,255,0.95);
+    padding: 10px 14px;
+    border-radius: 50px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+}
+
+.btn-prueba {
+    border: none;
+    padding: 8px 16px;
+    font-size: 13px;
+    border-radius: 50px;
+    cursor: pointer;
+    background: #e0e0e0;
+    transition: all 0.2s ease;
+}
+
+.btn-prueba:hover {
+    background: #d0d0d0;
+}
+
+.btn-prueba.active {
+    background: #333;
+    color: white;
 }
