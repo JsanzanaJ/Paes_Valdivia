@@ -8,12 +8,12 @@ function colorPorPuntaje(valor) {
                          "#d73027";
 }
 
-function radioPorZoom(zoom) {
-    if (zoom <= 12) return 5;
-    if (zoom === 13) return 7;
-    if (zoom === 14) return 9;
-    if (zoom === 15) return 11;
-    return 13;
+function tamañoPorZoom(zoom) {
+    if (zoom <= 12) return 10;
+    if (zoom === 13) return 14;
+    if (zoom === 14) return 18;
+    if (zoom === 15) return 22;
+    return 26;
 }
 
 // ================================
@@ -46,19 +46,18 @@ document.addEventListener("DOMContentLoaded", () => {
         "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
         {
             attribution: "Tiles &copy; Esri",
-            opacity: 0.8
+            opacity: 0.9
         }
     ).addTo(map);
-    
+
     L.control.layers(
-        {  "Satelital": satelital, "Claro": positron, "Oscuro": dark },
+        { "Satelital": satelital, "Claro": positron, "Oscuro": dark },
         null,
         { position: "topright" }
     ).addTo(map);
 
-    
     // ================================
-    // LEYENDA DINÁMICA
+    // LEYENDA
     // ================================
     const legend = L.control({ position: "bottomright" });
 
@@ -66,24 +65,15 @@ document.addEventListener("DOMContentLoaded", () => {
         const div = L.DomUtil.create("div", "info legend");
         div.innerHTML = `
             <strong>${pruebaActiva}</strong><br>
-            <i style="background:#1a9850"></i> &gt; 650<br>
+            <i style="background:#1a9850"></i> > 650<br>
             <i style="background:#66bd63"></i> 550 – 650<br>
             <i style="background:#fee08b"></i> 450 – 550<br>
-            <i style="background:#d73027"></i> &lt; 450
+            <i style="background:#d73027"></i> < 450
         `;
         return div;
     };
 
     legend.addTo(map);
-    map.on("zoomend", () => {
-    if (!capaColegios) return;
-
-    const zoom = map.getZoom();
-
-    capaColegios.eachLayer(layer => {
-        layer.setRadius(radioPorZoom(zoom));
-    });
-    });
 
     // ================================
     // CARGAR GEOJSON
@@ -98,73 +88,80 @@ document.addEventListener("DOMContentLoaded", () => {
                     map.removeLayer(capaColegios);
                 }
 
-                // Crear grupo cluster
+                // ================================
+                // CLUSTER GROUP
+                // ================================
                 capaColegios = L.markerClusterGroup({
-                showCoverageOnHover: false,
-                spiderfyOnMaxZoom: true,
+                    spiderfyOnMaxZoom: true,
+                    showCoverageOnHover: false,
+                    maxClusterRadius: 80,
+                
 
-                // 👇 Hace que el cluster dure más antes de separarse
-                disableClusteringAtZoom: 12,
+                    iconCreateFunction: function (cluster) {
 
-                // 👇 Aumenta el radio de agrupación
-                maxClusterRadius: 80,
+                        const markers = cluster.getAllChildMarkers();
 
-                iconCreateFunction: function (cluster) {
+                        let suma = 0;
+                        markers.forEach(marker => {
+                            suma += marker.feature.properties[pruebaActiva];
+                        });
 
-                    const markers = cluster.getAllChildMarkers();
+                        const promedio = suma / markers.length;
+                        const color = colorPorPuntaje(promedio);
 
-                    // Calcular promedio del cluster según prueba activa
-                    let suma = 0;
-                    markers.forEach(marker => {
-                     suma += marker.feature.properties[pruebaActiva];
-                    });
+                        return L.divIcon({
+                            html: `
+                                <div style="
+                                    background:${color};
+                                    width:45px;
+                                    height:45px;
+                                    border-radius:50%;
+                                    display:flex;
+                                    align-items:center;
+                                    justify-content:center;
+                                    color:white;
+                                    font-weight:bold;
+                                    border:2px solid white;
+                                ">
+                                    ${markers.length}
+                                </div>
+                            `,
+                            className: "",
+                            iconSize: [45, 45]
+                        });
+                    }
+                });
 
-                    const promedioCluster = suma / markers.length;
-
-                 const color = colorPorPuntaje(promedioCluster);
-
-                    return L.divIcon({
-                        html: `
-                            <div style="
-                                background:${color};
-                                width:45px;
-                                height:45px;
-                                border-radius:50%;
-                             display:flex;
-                             align-items:center;
-                                justify-content:center;
-                                color:white;
-                                font-weight:bold;
-                                border:2px solid white;
-                         ">
-                                ${markers.length}
-                            </div>
-                        `,
-                        className: "",
-                        iconSize: [45, 45]
-        });
-    }
-});
-
-
+                // ================================
+                // GEOJSON
+                // ================================
                 const geojsonLayer = L.geoJSON(data, {
-                    pointToLayer: (feature, latlng) => {
-                        const valor = feature.properties[pruebaActiva];
 
-                        return L.circleMarker(latlng, {
-                            radius: radioPorZoom(map.getZoom()),
-                            fillColor: colorPorPuntaje(valor),
-                            color: "#333",
-                            weight: 1,
-                            fillOpacity: 0.9
+                    pointToLayer: (feature, latlng) => {
+
+                        const valor = feature.properties[pruebaActiva];
+                        const color = colorPorPuntaje(valor);
+                        const size = tamañoPorZoom(map.getZoom());
+
+                        return L.marker(latlng, {
+                            icon: L.divIcon({
+                                html: `
+                                    <div style="
+                                        width:${size}px;
+                                        height:${size}px;
+                                        background:${color};
+                                        border-radius:50%;
+                                        border:2px solid #333;
+                                    "></div>
+                                `,
+                                className: "",
+                                iconSize: [size, size]
+                            })
                         });
                     },
 
                     onEachFeature: (feature, layer) => {
 
-                        // ================================
-                        // POPUP (CLICK)
-                        // ================================
                         layer.bindPopup(`
                             <b>${feature.properties.NOM_RBD}</b><br>
                             Lenguaje: ${feature.properties.Lenguaje}<br>
@@ -175,50 +172,17 @@ document.addEventListener("DOMContentLoaded", () => {
                             Obligatoria: ${feature.properties.Obligatoria}
                         `);
 
-                        // ================================
-                        // TOOLTIP (HOVER)
-                        // ================================
                         layer.on("mouseover", () => {
                             const valor = feature.properties[pruebaActiva];
                             layer.bindTooltip(
                                 `<b>${feature.properties.NOM_RBD}</b><br>
                                  ${pruebaActiva}: <b>${valor}</b>`,
-                                { sticky: true, opacity: 0.95 }
+                                { sticky: true }
                             ).openTooltip();
                         });
 
                         layer.on("mouseout", () => {
                             layer.closeTooltip();
-                        });
-
-                        // ================================
-                        // CLICK → RESALTAR COLEGIO
-                        // ================================
-                        layer.on("click", () => {
-
-                            capaColegios.eachLayer(l => {
-                                l.setStyle({
-                                    radius: 8,
-                                    weight: 1,
-                                    fillOpacity: 0.3
-                                });
-                            });
-
-                            layer.setStyle({
-                                radius: 12,
-                                weight: 3,
-                                fillOpacity: 1
-                            });
-                        });
-
-                        layer.on("popupclose", () => {
-                            capaColegios.eachLayer(l => {
-                                l.setStyle({
-                                    radius: 8,
-                                    weight: 1,
-                                    fillOpacity: 0.9
-                                });
-                            });
                         });
                     }
                 });
@@ -226,8 +190,6 @@ document.addEventListener("DOMContentLoaded", () => {
                 capaColegios.addLayer(geojsonLayer);
                 map.addLayer(capaColegios);
 
-
-                // actualizar leyenda y subtítulo
                 legend.remove();
                 legend.addTo(map);
                 document.getElementById("subtitulo-prueba").textContent = pruebaActiva;
@@ -236,25 +198,23 @@ document.addEventListener("DOMContentLoaded", () => {
             dibujarMapa();
 
             // ================================
-            // SELECTOR DE PRUEBAS
+            // BOTONES DE PRUEBA
             // ================================
-// ================================
-// SELECTOR DE PRUEBAS (BOTONES)
-// ================================
-document.querySelectorAll(".btn-prueba").forEach(btn => {
-    btn.addEventListener("click", () => {
+            document.querySelectorAll(".btn-prueba").forEach(btn => {
+                btn.addEventListener("click", () => {
 
-        document.querySelectorAll(".btn-prueba")
-            .forEach(b => b.classList.remove("active"));
+                    document.querySelectorAll(".btn-prueba")
+                        .forEach(b => b.classList.remove("active"));
 
-        btn.classList.add("active");
+                    btn.classList.add("active");
 
-        pruebaActiva = btn.dataset.prueba;
+                    pruebaActiva = btn.dataset.prueba;
 
-        dibujarMapa();
-    });
-});
-            console.log("✅ Mapa completo y funcional");
+                    dibujarMapa();
+                });
+            });
+
+            console.log("✅ Mapa funcionando con spiderfy real");
         })
         .catch(err => console.error("❌ Error cargando GeoJSON", err));
 });
