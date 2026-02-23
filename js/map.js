@@ -1,3 +1,7 @@
+let clustersActivos = true;
+let capaCluster = null;
+let capaSimple = null;
+
 // ================================
 // FUNCIÓN DE COLOR SEGÚN PUNTAJE
 // ================================
@@ -164,6 +168,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
                         layer.bindPopup(`
                             <b>${feature.properties.NOM_RBD}</b><br>
+                            RBD: ${feature.properties.exrbd}<br>
                             Lenguaje: ${feature.properties.Lenguaje}<br>
                             M1: ${feature.properties.M1}<br>
                             M2: ${feature.properties.M2}<br>
