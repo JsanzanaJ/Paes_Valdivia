@@ -1,9 +1,17 @@
 let clustersActivos = true;
-let capaCluster = null;
-let capaSimple = null;
+let capaColegios = null;
+let pruebaActiva = "Lenguaje";
 
 // ================================
-// FUNCIÓN DE COLOR SEGÚN PUNTAJE
+// DETECCIÓN DISPOSITIVO TÁCTIL
+// ================================
+const esMovil =
+    'ontouchstart' in window ||
+    navigator.maxTouchPoints > 0 ||
+    navigator.msMaxTouchPoints > 0;
+
+// ================================
+// FUNCIÓN DE COLOR
 // ================================
 function colorPorPuntaje(valor) {
     return valor > 650 ? "#1a9850" :
@@ -21,12 +29,6 @@ function tamañoPorZoom(zoom) {
 }
 
 // ================================
-// VARIABLE DE PRUEBA ACTIVA
-// ================================
-let pruebaActiva = "Lenguaje";
-let capaColegios = null;
-
-// ================================
 // INICIAR MAPA
 // ================================
 document.addEventListener("DOMContentLoaded", () => {
@@ -37,27 +39,20 @@ document.addEventListener("DOMContentLoaded", () => {
     // CAPAS BASE
     // ================================
     const positron = L.tileLayer(
-        "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
-        { attribution: "&copy; CARTO" }
+        "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png"
     );
 
     const dark = L.tileLayer(
-        "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png",
-        { attribution: "&copy; CARTO" }
+        "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png"
     );
 
     const satelital = L.tileLayer(
-        "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
-        {
-            attribution: "Tiles &copy; Esri",
-            opacity: 0.9
-        }
+        "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}"
     ).addTo(map);
 
     L.control.layers(
         { "Satelital": satelital, "Claro": positron, "Oscuro": dark },
-        null,
-        { position: "topright" }
+        null
     ).addTo(map);
 
     // ================================
@@ -98,47 +93,9 @@ document.addEventListener("DOMContentLoaded", () => {
                 capaColegios = L.markerClusterGroup({
                     spiderfyOnMaxZoom: true,
                     showCoverageOnHover: false,
-                    maxClusterRadius: 80,
-                
-
-                    iconCreateFunction: function (cluster) {
-
-                        const markers = cluster.getAllChildMarkers();
-
-                        let suma = 0;
-                        markers.forEach(marker => {
-                            suma += marker.feature.properties[pruebaActiva];
-                        });
-
-                        const promedio = suma / markers.length;
-                        const color = colorPorPuntaje(promedio);
-
-                        return L.divIcon({
-                            html: `
-                                <div style="
-                                    background:${color};
-                                    width:45px;
-                                    height:45px;
-                                    border-radius:50%;
-                                    display:flex;
-                                    align-items:center;
-                                    justify-content:center;
-                                    color:white;
-                                    font-weight:bold;
-                                    border:2px solid white;
-                                ">
-                                    ${markers.length}
-                                </div>
-                            `,
-                            className: "",
-                            iconSize: [45, 45]
-                        });
-                    }
+                    maxClusterRadius: 80
                 });
 
-                // ================================
-                // GEOJSON
-                // ================================
                 const geojsonLayer = L.geoJSON(data, {
 
                     pointToLayer: (feature, latlng) => {
@@ -177,18 +134,20 @@ document.addEventListener("DOMContentLoaded", () => {
                             Obligatoria: ${feature.properties.Obligatoria}
                         `);
 
-                        layer.on("mouseover", () => {
+                        // Hover SOLO en desktop
+                        if (!esMovil) {
+
                             const valor = feature.properties[pruebaActiva];
+
                             layer.bindTooltip(
                                 `<b>${feature.properties.NOM_RBD}</b><br>
                                  ${pruebaActiva}: <b>${valor}</b>`,
                                 { sticky: true }
-                            ).openTooltip();
-                        });
+                            );
 
-                        layer.on("mouseout", () => {
-                            layer.closeTooltip();
-                        });
+                            layer.on("mouseover", () => layer.openTooltip());
+                            layer.on("mouseout", () => layer.closeTooltip());
+                        }
                     }
                 });
 
@@ -219,7 +178,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 });
             });
 
-            console.log("✅ Mapa funcionando con spiderfy real");
+            console.log("✅ Mapa completo optimizado para desktop y móvil");
         })
         .catch(err => console.error("❌ Error cargando GeoJSON", err));
 });
